@@ -1,0 +1,55 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N5819
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+$CMP BAT54C
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP DTC114YKA
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP Ferrite
+D Fuse
+$ENDCMP
+#
+$CMP IRLML6402
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP P10k
+D Potentionmetre
+K R
+$ENDCMP
+#
+$CMP POT
+D Potentionmetre
+K R
+$ENDCMP
+#
+$CMP SMBJ6.0A
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+$CMP SS34
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+$CMP SW_TACT
+D Push Button
+K Switch
+$ENDCMP
+#
+$CMP SW_TACT_RA
+D Push Button
+K Switch
+$ENDCMP
+#
+#End Doc Library
