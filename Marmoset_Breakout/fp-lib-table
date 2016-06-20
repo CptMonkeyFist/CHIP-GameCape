@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Marmoset)(type KiCad)(uri "$(KIPRJMOD)\\Marmoset.pretty")(options "")(descr ""))
+)

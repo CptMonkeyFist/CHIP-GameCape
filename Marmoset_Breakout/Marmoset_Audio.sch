@@ -1,0 +1,780 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Marmoset
+LIBS:Marmoset (2)
+LIBS:Marmoset-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "Marmoset"
+Date "21 feb 2015"
+Rev "1.0"
+Comp "Prime8Bit"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 5700 2300 3    60   Input ~ 0
+GND
+$Comp
+L SPEAK SP_L1
+U 1 1 54D45053
+P 8000 3500
+F 0 "SP_L1" H 8450 3500 70  0000 C CNN
+F 1 "SPEAK" H 7900 3700 70  0000 C CNN
+F 2 "~" H 8000 3500 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/2403%20260%2000001/423-1171-ND/3854649" H 8000 4350 60  0001 C CNN
+F 4 "1.89" H 8600 4250 60  0001 C CNN "Price"
+F 5 "0.88518" H 8650 4150 60  0001 C CNN "Price (1500)"
+F 6 "423-1171-ND" H 8000 4250 60  0001 C CNN "Distributor Part Number"
+F 7 "2403 260 00001" H 8000 4150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Value" H 8000 3500 60  0001 C CNN "Misc"
+	1    8000 3500
+	1    0    0    -1  
+$EndComp
+Text HLabel 3550 3950 0    60   Input ~ 0
+HP_R
+Text HLabel 3550 3550 0    60   Input ~ 0
+HP_L
+$Comp
+L SPEAK SP_R1
+U 1 1 55CDB102
+P 8000 4350
+F 0 "SP_R1" H 8450 4350 70  0000 C CNN
+F 1 "SPEAK" H 7900 4550 70  0000 C CNN
+F 2 "~" H 8000 4350 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/2403%20260%2000001/423-1171-ND/3854649" H 8000 5200 60  0001 C CNN
+F 4 "1.89" H 8600 5100 60  0001 C CNN "Price"
+F 5 "0.88518" H 8650 5000 60  0001 C CNN "Price (1500)"
+F 6 "423-1171-ND" H 8000 5100 60  0001 C CNN "Distributor Part Number"
+F 7 "2403 260 00001" H 8000 5000 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Value" H 8000 4350 60  0001 C CNN "Misc"
+	1    8000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 100ko R27
+U 1 1 55CDB374
+P 5400 2350
+F 0 "R27" V 5480 2350 40  0000 C CNN
+F 1 "100ko" V 5407 2351 40  0000 C CNN
+F 2 "" V 5330 2350 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1003V/P100KCCT-ND/119551" H 5400 2850 30  0001 C CNN
+F 4 "0.008" V 5680 2550 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1003V" V 5880 2750 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 100K OHM 1% 1/8W 0805" V 5880 2750 60  0001 C CNN "Misc"
+F 7 "0.10" H 5950 2750 60  0001 C CNN "Price"
+F 8 "P100KCCT-ND" H 5400 2750 60  0001 C CNN "Distributor Part Number"
+	1    5400 2350
+	1    0    0    -1  
+$EndComp
+Text HLabel 5400 1350 1    60   Input ~ 0
++5V0
+Text HLabel 6250 5600 3    60   Input ~ 0
+GND
+Text Notes 5900 6350 0    60   ~ 0
+If the SHUTDOWN signal is high,\n then the whole amp turns off.\nYou get no sound in speakers\nor headphones.
+Text Notes 2000 2700 0    60   ~ 0
+MODE = 0 - Volume is 100% \n            (must be controlled by OS of CHIP)\nMODE = 1 - Volume is controlled by \n              DC_VOL_CONTROL pin\n             (should be controlled by pot \n              on DC_VOL_CONTROL and \n              NOT by OS of CHIP)\n
+Text HLabel 4750 2800 0    60   Input ~ 0
+GND
+Text GLabel 5300 2700 0    60   Input ~ 0
+HP_SENSE
+$Comp
+L 220uF C15
+U 1 1 55D237EC
+P 8300 4800
+F 0 "C15" H 8350 4900 50  0000 L CNN
+F 1 "220uF" H 8050 4700 50  0000 L CNN
+F 2 "2917" H 7950 4800 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/TPSD107K010R0100/478-1777-1-ND/564809" H 8300 5400 60  0001 C CNN
+F 4 "0.3993" H 9100 5200 60  0001 C CNN "Price (1500)"
+F 5 "1.33" H 9050 5300 60  0001 C CNN "Price"
+F 6 "478-1784-1-ND" H 8300 5300 60  0001 C CNN "Distributor Part Number"
+F 7 "478-1784-2-ND" H 8300 5200 60  0001 C CNN "Misc"
+F 8 "TPSD227K010R0150" H 8300 5100 60  0001 C CNN "Manufacturer Part Number"
+	1    8300 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 220uF C14
+U 1 1 55D23933
+P 8250 3050
+F 0 "C14" H 8300 3150 50  0000 L CNN
+F 1 "220uF" H 8300 2950 50  0000 L CNN
+F 2 "2917" H 7900 3050 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/TPSD107K010R0100/478-1777-1-ND/564809" H 8250 3650 60  0001 C CNN
+F 4 "0.3993" H 9050 3450 60  0001 C CNN "Price (1500)"
+F 5 "1.33" H 9000 3550 60  0001 C CNN "Price"
+F 6 "478-1784-1-ND" H 8250 3550 60  0001 C CNN "Distributor Part Number"
+F 7 "478-1784-2-ND" H 8250 3450 60  0001 C CNN "Misc"
+F 8 "TPSD227K010R0150" H 8250 3350 60  0001 C CNN "Manufacturer Part Number"
+	1    8250 3050
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8700 3850 3    60   Input ~ 0
+GND
+$Comp
+L 1.5ko R34
+U 1 1 55D240F2
+P 8700 3500
+F 0 "R34" V 8780 3500 40  0000 C CNN
+F 1 "1.5ko" V 8707 3501 40  0000 C CNN
+F 2 "" V 8630 3500 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 8700 4050 30  0001 C CNN
+F 4 "0.00729" H 9450 3850 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1501V" H 8700 3850 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 1.5K OHM 1% 1/8W 0805" H 8650 4150 60  0001 C CNN "Misc"
+F 7 "0.10" H 9400 3950 60  0001 C CNN "Price"
+F 8 "P1.50KCCT-ND" H 8700 3950 60  0001 C CNN "Distributor Part Number"
+	1    8700 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 9400 3850 0    60   Input ~ 0
+HP_SENSE
+Wire Wire Line
+	5400 1350 5400 2100
+Wire Wire Line
+	5400 2600 5400 2700
+Wire Wire Line
+	5300 2700 5550 2700
+Connection ~ 5400 2700
+Wire Wire Line
+	6250 5500 6250 5600
+Wire Wire Line
+	4750 2800 5550 2800
+Wire Wire Line
+	7600 4250 7700 4250
+Wire Wire Line
+	7700 4450 7700 5000
+Wire Wire Line
+	7600 4800 8100 4800
+Wire Wire Line
+	9400 3850 9500 3850
+Wire Wire Line
+	7600 3050 8050 3050
+Wire Wire Line
+	7700 2850 7700 3400
+Wire Wire Line
+	7600 3600 7700 3600
+Text HLabel 8700 5500 3    60   Input ~ 0
+GND
+$Comp
+L 1.5ko R35
+U 1 1 55D25C80
+P 8700 5150
+F 0 "R35" V 8780 5150 40  0000 C CNN
+F 1 "1.5ko" V 8707 5151 40  0000 C CNN
+F 2 "" V 8630 5150 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 8700 5700 30  0001 C CNN
+F 4 "0.00729" H 9450 5500 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1501V" H 8700 5500 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 1.5K OHM 1% 1/8W 0805" H 8650 5800 60  0001 C CNN "Misc"
+F 7 "0.10" H 9400 5600 60  0001 C CNN "Price"
+F 8 "P1.50KCCT-ND" H 8700 5600 60  0001 C CNN "Distributor Part Number"
+	1    8700 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 3050
+Wire Wire Line
+	8450 3050 8900 3050
+Wire Wire Line
+	8700 3050 8700 3250
+Wire Wire Line
+	8700 3750 8700 3850
+Wire Wire Line
+	8900 3050 8900 3750
+Wire Wire Line
+	8900 3750 9500 3750
+Connection ~ 8700 3050
+Connection ~ 7700 4800
+Wire Wire Line
+	8500 4800 8900 4800
+Wire Wire Line
+	8700 4800 8700 4900
+Wire Wire Line
+	8900 4800 8900 4000
+Wire Wire Line
+	8900 4000 9500 4000
+Connection ~ 8700 4800
+Text HLabel 9400 4100 0    60   Output ~ 0
+MIC_IN
+Wire Wire Line
+	9400 4100 9500 4100
+Wire Wire Line
+	8700 5400 8700 5500
+Text HLabel 3550 3750 0    60   Input ~ 0
+GND
+Wire Wire Line
+	5550 3750 3550 3750
+$Comp
+L 20ko R33
+U 1 1 55D26E73
+P 7700 5250
+F 0 "R33" V 7780 5250 40  0000 C CNN
+F 1 "20ko" V 7707 5251 40  0000 C CNN
+F 2 "0805" V 7630 5250 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2002V/P20.0KCCT-ND/119348" H 7700 5850 30  0001 C CNN
+F 4 "0.00729" V 7980 5450 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2002V" V 8180 5650 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 20K OHM 1% 1/8W 0805" H 7500 5650 60  0001 C CNN "Misc"
+F 7 "0.10" H 8500 5750 60  0001 C CNN "Price"
+F 8 "P20.0KCCT-ND" H 7600 5750 60  0001 C CNN "Distributor Part Number"
+	1    7700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5700 7650 5700
+Wire Wire Line
+	7700 5500 7700 5700
+Wire Wire Line
+	7700 4900 8000 4900
+Wire Wire Line
+	8000 4900 8000 5050
+Connection ~ 7700 4900
+Wire Wire Line
+	7700 5600 8000 5600
+Wire Wire Line
+	8000 5600 8000 5450
+Connection ~ 7700 5600
+Wire Wire Line
+	7050 5500 7050 5700
+Wire Wire Line
+	6950 5700 7150 5700
+Connection ~ 7050 5700
+Wire Wire Line
+	6400 5700 6400 5500
+Wire Wire Line
+	7700 2150 7650 2150
+Wire Wire Line
+	7700 2150 7700 2350
+Wire Wire Line
+	7700 2250 8000 2250
+Wire Wire Line
+	8000 2250 8000 2400
+Connection ~ 7700 2250
+Wire Wire Line
+	7050 2400 7050 2150
+Wire Wire Line
+	6950 2150 7150 2150
+Connection ~ 7050 2150
+Wire Wire Line
+	6400 2150 6400 2400
+$Comp
+L 20ko R32
+U 1 1 55D27F3B
+P 7700 2600
+F 0 "R32" V 7780 2600 40  0000 C CNN
+F 1 "20ko" V 7707 2601 40  0000 C CNN
+F 2 "0805" V 7630 2600 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2002V/P20.0KCCT-ND/119348" H 7700 3200 30  0001 C CNN
+F 4 "0.00729" V 7980 2800 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2002V" V 8180 3000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 20K OHM 1% 1/8W 0805" H 7500 3000 60  0001 C CNN "Misc"
+F 7 "0.10" H 8500 3100 60  0001 C CNN "Price"
+F 8 "P20.0KCCT-ND" H 7600 3100 60  0001 C CNN "Distributor Part Number"
+	1    7700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2950 8000 2950
+Wire Wire Line
+	8000 2950 8000 2800
+Connection ~ 7700 2950
+$Comp
+L 10uF C5
+U 1 1 55D28EFC
+P 4100 4900
+F 0 "C5" H 4100 5000 40  0000 L CNN
+F 1 "10uF" H 4106 4815 40  0000 L CNN
+F 2 "0805" H 4138 4750 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21A106KPFNNNE/1276-1052-1-ND/3889138" H 4050 5500 60  0001 C CNN
+F 4 "0.0385" H 4300 5200 60  0001 C CNN "Price (1500)"
+F 5 "CL21A106KPFNNNE" H 4500 5400 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 10UF 10V 10% X5R 0805" H 3800 5300 60  0001 C CNN "Misc"
+F 7 "0.20" H 4900 5400 60  0001 C CNN "Price"
+F 8 "1276-1052-1-ND" H 4100 5400 60  0001 C CNN "Distributor Part Number"
+	1    4100 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2150 6450 2150
+Wire Wire Line
+	6450 5700 6400 5700
+$Comp
+L 20ko R22
+U 1 1 55D2B55A
+P 3900 3950
+F 0 "R22" V 3980 3950 40  0000 C CNN
+F 1 "20ko" V 3907 3951 40  0000 C CNN
+F 2 "0805" V 3830 3950 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2002V/P20.0KCCT-ND/119348" H 3900 4550 30  0001 C CNN
+F 4 "0.00729" V 4180 4150 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2002V" V 4380 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 20K OHM 1% 1/8W 0805" H 3700 4350 60  0001 C CNN "Misc"
+F 7 "0.10" H 4700 4450 60  0001 C CNN "Price"
+F 8 "P20.0KCCT-ND" H 3800 4450 60  0001 C CNN "Distributor Part Number"
+	1    3900 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L 20ko R21
+U 1 1 55D2B5FD
+P 3900 3550
+F 0 "R21" V 3980 3550 40  0000 C CNN
+F 1 "20ko" V 3907 3551 40  0000 C CNN
+F 2 "0805" V 3830 3550 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2002V/P20.0KCCT-ND/119348" H 3900 4150 30  0001 C CNN
+F 4 "0.00729" V 4180 3750 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2002V" V 4380 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 20K OHM 1% 1/8W 0805" H 3700 3950 60  0001 C CNN "Misc"
+F 7 "0.10" H 4700 4050 60  0001 C CNN "Price"
+F 8 "P20.0KCCT-ND" H 3800 4050 60  0001 C CNN "Distributor Part Number"
+	1    3900 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L 0.1uF C6
+U 1 1 55D2B7B5
+P 4400 4900
+F 0 "C6" H 4400 5000 40  0000 L CNN
+F 1 "0.1uF" H 4406 4815 40  0000 L CNN
+F 2 "0805" H 5300 5250 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21B104KBCNNNC/1276-1003-1-ND/3889089" H 4350 5550 60  0001 C CNN
+F 4 "0.0114" H 5150 5350 60  0001 C CNN "Price (1500)"
+F 5 "CL21B104KBCNNNC" H 4350 5350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 0.1UF 50V 10% X7R 0805" H 4350 5250 60  0001 C CNN "Misc"
+F 7 "0.10" H 5100 5450 60  0001 C CNN "Price"
+F 8 "1276-1003-1-ND" H 4350 5450 60  0001 C CNN "Distributor Part Number"
+	1    4400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF C9
+U 1 1 55D2B83E
+P 4700 4900
+F 0 "C9" H 4700 5000 40  0000 L CNN
+F 1 "0.1uF" H 4706 4815 40  0000 L CNN
+F 2 "0805" H 5600 5250 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21B104KBCNNNC/1276-1003-1-ND/3889089" H 4650 5550 60  0001 C CNN
+F 4 "0.0114" H 5450 5350 60  0001 C CNN "Price (1500)"
+F 5 "CL21B104KBCNNNC" H 4650 5350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 0.1UF 50V 10% X7R 0805" H 4650 5250 60  0001 C CNN "Misc"
+F 7 "0.10" H 5400 5450 60  0001 C CNN "Price"
+F 8 "1276-1003-1-ND" H 4650 5450 60  0001 C CNN "Distributor Part Number"
+	1    4700 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4600 5550 4600
+Wire Wire Line
+	5450 4400 5450 4600
+Wire Wire Line
+	4100 4400 5550 4400
+Wire Wire Line
+	4700 4400 4700 4700
+Wire Wire Line
+	5550 4500 5450 4500
+Connection ~ 5450 4500
+Connection ~ 5450 4400
+Wire Wire Line
+	4400 4400 4400 4700
+Connection ~ 4700 4400
+Wire Wire Line
+	4100 4400 4100 4700
+Connection ~ 4400 4400
+Wire Wire Line
+	4950 4700 5550 4700
+Wire Wire Line
+	4950 4700 4950 5300
+Wire Wire Line
+	4100 5200 5050 5200
+Wire Wire Line
+	4100 5200 4100 5100
+Wire Wire Line
+	4400 5100 4400 5200
+Connection ~ 4400 5200
+Wire Wire Line
+	4700 5100 4700 5200
+Connection ~ 4700 5200
+Wire Wire Line
+	5450 5000 5550 5000
+Wire Wire Line
+	5450 4700 5450 5100
+Connection ~ 5450 4700
+Wire Wire Line
+	5550 4800 5450 4800
+Connection ~ 5450 4800
+Wire Wire Line
+	5550 4900 5450 4900
+Connection ~ 5450 4900
+Wire Wire Line
+	5450 5100 5550 5100
+Connection ~ 5450 5000
+$Comp
+L 1uF C10
+U 1 1 55D2C16A
+P 5250 5200
+F 0 "C10" H 5250 5300 40  0000 L CNN
+F 1 "1uF" H 5256 5115 40  0000 L CNN
+F 2 "0805" H 5288 5050 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21B105KPFNNNE/1276-1275-1-ND/3889361" H 5200 5800 60  0001 C CNN
+F 4 "0.01821" H 6500 5600 60  0001 C CNN "Price (1500)"
+F 5 "CL21B105KPFNNNE" H 5250 5600 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 1UF 10V 10% X7R 0805" H 5250 5500 60  0001 C CNN "Misc"
+F 7 "0.10" H 6450 5700 60  0001 C CNN "Price"
+F 8 "1276-1275-1-ND" H 5250 5700 60  0001 C CNN "Distributor Part Number"
+	1    5250 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 5200 5550 5200
+Connection ~ 4950 5200
+Text HLabel 4950 5300 3    60   Input ~ 0
+GND
+Wire Wire Line
+	9400 3650 9500 3650
+$Comp
+L 20ko R26
+U 1 1 55D30573
+P 5200 4250
+F 0 "R26" V 5280 4250 40  0000 C CNN
+F 1 "20ko" V 5207 4251 40  0000 C CNN
+F 2 "0805" V 5130 4250 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2002V/P20.0KCCT-ND/119348" H 5200 4850 30  0001 C CNN
+F 4 "0.00729" V 5480 4450 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2002V" V 5680 4650 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 20K OHM 1% 1/8W 0805" H 5000 4650 60  0001 C CNN "Misc"
+F 7 "0.10" H 6000 4750 60  0001 C CNN "Price"
+F 8 "P20.0KCCT-ND" H 5100 4750 60  0001 C CNN "Distributor Part Number"
+	1    5200 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L 20ko R25
+U 1 1 55D305C2
+P 5200 3250
+F 0 "R25" V 5280 3250 40  0000 C CNN
+F 1 "20ko" V 5207 3251 40  0000 C CNN
+F 2 "0805" V 5130 3250 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2002V/P20.0KCCT-ND/119348" H 5200 3850 30  0001 C CNN
+F 4 "0.00729" V 5480 3450 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2002V" V 5680 3650 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 20K OHM 1% 1/8W 0805" H 5000 3650 60  0001 C CNN "Misc"
+F 7 "0.10" H 6000 3750 60  0001 C CNN "Price"
+F 8 "P20.0KCCT-ND" H 5100 3750 60  0001 C CNN "Distributor Part Number"
+	1    5200 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 3550 5550 3550
+Wire Wire Line
+	4850 3550 4850 3250
+Wire Wire Line
+	4850 3250 4950 3250
+Wire Wire Line
+	5450 3250 5550 3250
+Wire Wire Line
+	4650 3950 5550 3950
+Wire Wire Line
+	4850 3950 4850 4250
+Wire Wire Line
+	4850 4250 4950 4250
+Wire Wire Line
+	5450 4250 5550 4250
+Wire Wire Line
+	3550 3550 3650 3550
+Wire Wire Line
+	3550 3950 3650 3950
+Connection ~ 4850 3550
+Connection ~ 4850 3950
+$Comp
+L 0.33uF C7
+U 1 1 55D31DB3
+P 4450 3550
+F 0 "C7" H 4450 3650 40  0000 L CNN
+F 1 "0.33uF" H 4456 3465 40  0000 L CNN
+F 2 "0805" H 4488 3400 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21B334KBFNNNE/1276-1123-1-ND/3889209" H 4400 4150 60  0001 C CNN
+F 4 "0.03825" H 5250 3950 60  0001 C CNN "Price (1500)"
+F 5 "CL21B334KBFNNNE" H 4450 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 0.33UF 50V 10% X7R 0805" H 4450 4250 60  0001 C CNN "Misc"
+F 7 "0.18" H 5200 4050 60  0001 C CNN "Price"
+F 8 "1276-1123-1-ND" H 4450 4050 60  0001 C CNN "Distributor Part Number"
+	1    4450 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L 0.33uF C8
+U 1 1 55D31FF2
+P 4450 3950
+F 0 "C8" H 4450 4050 40  0000 L CNN
+F 1 "0.33uF" H 4456 3865 40  0000 L CNN
+F 2 "0805" H 4488 3800 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21B334KBFNNNE/1276-1123-1-ND/3889209" H 4400 4550 60  0001 C CNN
+F 4 "0.03825" H 5250 4350 60  0001 C CNN "Price (1500)"
+F 5 "CL21B334KBFNNNE" H 4450 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 0.33UF 50V 10% X7R 0805" H 4450 4650 60  0001 C CNN "Misc"
+F 7 "0.18" H 5200 4450 60  0001 C CNN "Price"
+F 8 "1276-1123-1-ND" H 4450 4450 60  0001 C CNN "Distributor Part Number"
+	1    4450 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 3550 4150 3550
+Wire Wire Line
+	4150 3950 4250 3950
+$Comp
+L 0.068uF C12
+U 1 1 55D32CAE
+P 8000 2600
+F 0 "C12" H 8000 2700 40  0000 L CNN
+F 1 "0.068uF" H 8006 2515 40  0000 L CNN
+F 2 "0805" H 8038 2450 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21B683KBCNNNC/1276-1251-1-ND/3889337" H 7950 3200 60  0001 C CNN
+F 4 "0.0275" H 8800 3000 60  0001 C CNN "Price (1500)"
+F 5 "CL21B683KBCNNNC" H 8000 3000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 0.068UF 50V 10% X7R 0805" H 8000 3300 60  0001 C CNN "Misc"
+F 7 "0.15" H 8750 3100 60  0001 C CNN "Price"
+F 8 "1276-1251-1-ND" H 8000 3100 60  0001 C CNN "Distributor Part Number"
+	1    8000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.068uF C13
+U 1 1 55D33216
+P 8000 5250
+F 0 "C13" H 8000 5350 40  0000 L CNN
+F 1 "0.068uF" H 8006 5165 40  0000 L CNN
+F 2 "0805" H 8038 5100 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21B683KBCNNNC/1276-1251-1-ND/3889337" H 7950 5850 60  0001 C CNN
+F 4 "0.0275" H 8800 5650 60  0001 C CNN "Price (1500)"
+F 5 "CL21B683KBCNNNC" H 8000 5650 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 0.068UF 50V 10% X7R 0805" H 8000 5950 60  0001 C CNN "Misc"
+F 7 "0.15" H 8750 5750 60  0001 C CNN "Price"
+F 8 "1276-1251-1-ND" H 8000 5750 60  0001 C CNN "Distributor Part Number"
+	1    8000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF C11
+U 1 1 55D33A0D
+P 6250 1650
+F 0 "C11" H 6250 1750 40  0000 L CNN
+F 1 "0.1uF" H 6256 1565 40  0000 L CNN
+F 2 "0805" H 7150 2000 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21B104KBCNNNC/1276-1003-1-ND/3889089" H 6200 2300 60  0001 C CNN
+F 4 "0.0114" H 7000 2100 60  0001 C CNN "Price (1500)"
+F 5 "CL21B104KBCNNNC" H 6200 2100 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 0.1UF 50V 10% X7R 0805" H 6200 2000 60  0001 C CNN "Misc"
+F 7 "0.10" H 6950 2200 60  0001 C CNN "Price"
+F 8 "1276-1003-1-ND" H 6200 2200 60  0001 C CNN "Distributor Part Number"
+	1    6250 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 1350 6250 1450
+Wire Wire Line
+	5700 1350 5700 1700
+Wire Wire Line
+	5700 2200 5700 2300
+Wire Wire Line
+	5850 1950 6250 1950
+Wire Wire Line
+	6250 1850 6250 2400
+Connection ~ 6250 1950
+Text Notes 1850 3150 0    60   ~ 0
+GAIN_SEL = 0 - Use internal 10k resistors for gain.\nGAIN_SEL = 1 - Use external resistors for gain\n                       (on L_GAIN and R_GAIN pins)
+Text Notes 750  1250 0    118  ~ 24
+SPEAKERS, HEADPHONES,\nAND AMPLIFIER
+Text HLabel 5700 1350 1    60   Input ~ 0
++5V0
+Text HLabel 6250 1350 1    60   Input ~ 0
++5V0
+$Comp
+L 20ko R28
+U 1 1 55D1C81D
+P 6700 2150
+F 0 "R28" V 6780 2150 40  0000 C CNN
+F 1 "20ko" V 6707 2151 40  0000 C CNN
+F 2 "0805" V 6630 2150 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2002V/P20.0KCCT-ND/119348" H 6700 2750 30  0001 C CNN
+F 4 "0.00729" V 6980 2350 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2002V" V 7180 2550 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 20K OHM 1% 1/8W 0805" H 6500 2550 60  0001 C CNN "Misc"
+F 7 "0.10" H 7500 2650 60  0001 C CNN "Price"
+F 8 "P20.0KCCT-ND" H 6600 2650 60  0001 C CNN "Distributor Part Number"
+	1    6700 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L 20ko R30
+U 1 1 55D1E6CD
+P 7400 2150
+F 0 "R30" V 7480 2150 40  0000 C CNN
+F 1 "20ko" V 7407 2151 40  0000 C CNN
+F 2 "0805" V 7330 2150 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2002V/P20.0KCCT-ND/119348" H 7400 2750 30  0001 C CNN
+F 4 "0.00729" V 7680 2350 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2002V" V 7880 2550 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 20K OHM 1% 1/8W 0805" H 7200 2550 60  0001 C CNN "Misc"
+F 7 "0.10" H 8200 2650 60  0001 C CNN "Price"
+F 8 "P20.0KCCT-ND" H 7300 2650 60  0001 C CNN "Distributor Part Number"
+	1    7400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L 20ko R29
+U 1 1 55D1F763
+P 6700 5700
+F 0 "R29" V 6780 5700 40  0000 C CNN
+F 1 "20ko" V 6707 5701 40  0000 C CNN
+F 2 "0805" V 6630 5700 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2002V/P20.0KCCT-ND/119348" H 6700 6300 30  0001 C CNN
+F 4 "0.00729" V 6980 5900 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2002V" V 7180 6100 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 20K OHM 1% 1/8W 0805" H 6500 6100 60  0001 C CNN "Misc"
+F 7 "0.10" H 7500 6200 60  0001 C CNN "Price"
+F 8 "P20.0KCCT-ND" H 6600 6200 60  0001 C CNN "Distributor Part Number"
+	1    6700 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L 20ko R31
+U 1 1 55D1F833
+P 7400 5700
+F 0 "R31" V 7480 5700 40  0000 C CNN
+F 1 "20ko" V 7407 5701 40  0000 C CNN
+F 2 "0805" V 7330 5700 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2002V/P20.0KCCT-ND/119348" H 7400 6300 30  0001 C CNN
+F 4 "0.00729" V 7680 5900 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2002V" V 7880 6100 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 20K OHM 1% 1/8W 0805" H 7200 6100 60  0001 C CNN "Misc"
+F 7 "0.10" H 8200 6200 60  0001 C CNN "Price"
+F 8 "P20.0KCCT-ND" H 7300 6200 60  0001 C CNN "Distributor Part Number"
+	1    7400 5700
+	0    1    1    0   
+$EndComp
+Text HLabel 4750 2900 0    60   Input ~ 0
++5V0
+Wire Wire Line
+	4750 2900 5550 2900
+$Comp
+L R R23
+U 1 1 55D25DFB
+P 5200 3000
+F 0 "R23" V 5150 3200 50  0000 C CNN
+F 1 "R" V 5200 3000 50  0000 C CNN
+F 2 "" V 5130 3000 30  0000 C CNN
+F 3 "" H 5200 3000 30  0000 C CNN
+	1    5200 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R24
+U 1 1 55D25E8E
+P 5200 3100
+F 0 "R24" V 5250 3300 50  0000 C CNN
+F 1 "R" V 5200 3100 50  0000 C CNN
+F 2 "" V 5130 3100 30  0000 C CNN
+F 3 "" H 5200 3100 30  0000 C CNN
+	1    5200 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 3000 5550 3000
+Wire Wire Line
+	5350 3100 5450 3100
+Wire Wire Line
+	5450 3100 5450 3000
+Connection ~ 5450 3000
+Wire Wire Line
+	5050 3000 4950 3000
+Wire Wire Line
+	4950 3000 4950 2900
+Connection ~ 4950 2900
+Wire Wire Line
+	5050 3100 4850 3100
+Wire Wire Line
+	4850 3100 4850 2800
+Connection ~ 4850 2800
+Text Notes 5100 3050 0    60   ~ 12
+DNP
+$Comp
+L POT RV1
+U 1 1 55D2192C
+P 5700 1950
+F 0 "RV1" H 5700 1850 50  0000 C CNN
+F 1 "POT" H 5700 1950 50  0000 C CNN
+F 2 "" H 5700 1950 60  0000 C CNN
+F 3 "" H 5700 1950 60  0000 C CNN
+	1    5700 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L LM4838 U6
+U 1 1 55D37A33
+P 6600 3950
+F 0 "U6" H 5950 2500 60  0000 C CNN
+F 1 "LM4838" H 6600 3950 60  0000 C CNN
+F 2 "" H 7650 4850 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/LM4838MTEX%2FNOPB/296-35281-1-ND/3738989" H 6600 6100 60  0001 C CNN
+F 4 "1.31625" H 7400 5900 60  0001 C CNN "Price (1500)"
+F 5 "296-35281-1-ND" H 6600 5900 60  0001 C CNN "Distributor Part Number"
+F 6 "3.03" H 7300 6000 60  0001 C CNN "Price"
+F 7 "Dual Amp" H 6600 5800 60  0001 C CNN "Misc"
+F 8 "LM4838MTEX/NOPB" H 6600 6000 60  0001 C CNN "Manufacturer Part Number"
+	1    6600 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5050 3250
+Text HLabel 9400 3650 0    60   Input ~ 0
+MICM
+$Comp
+L CONN_AUDIO U7
+U 1 1 55D9C8C6
+P 9850 3900
+F 0 "U7" H 9850 3600 60  0000 C CNN
+F 1 "CONN_AUDIO" H 9850 4300 60  0000 C CNN
+F 2 "" H 9950 3900 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/SJ-43515TS-SMT-TR/CP-43515TSSJCT-ND/669733" H 9850 4700 60  0001 C CNN
+F 4 "0.5888" H 10650 4500 60  0001 C CNN "Price (1500)"
+F 5 "SJ-43515TS-SMT-TR" H 9850 4400 60  0001 C CNN "Manufacturer Part Number"
+F 6 "1.54" H 10600 4600 60  0001 C CNN "Price"
+F 7 "CP-43515TSSJCT-ND" H 9850 4500 60  0001 C CNN "Distributor Part Number"
+F 8 "CP-43515TSSJTR-ND" H 9850 4600 60  0001 C CNN "Misc"
+	1    9850 3900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

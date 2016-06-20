@@ -1,0 +1,321 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Marmoset
+LIBS:Marmoset (2)
+LIBS:RTC_Breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Marmoset"
+Date "21 feb 2015"
+Rev "1.0"
+Comp "Prime8Bit"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BAT54C D1
+U 1 1 54D54764
+P 2050 1350
+F 0 "D1" H 2200 1250 40  0000 C CNN
+F 1 "BAT54C" H 2050 1450 40  0000 C CNN
+F 2 "SOT-23" H 2050 1850 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/BAT54C-7-F/BAT54C-FDICT-ND/717821" H 2100 1750 60  0001 C CNN
+F 4 "0.04017" H 2800 1550 60  0001 C CNN "Price (1500)"
+F 5 "0.20" H 2700 1650 60  0001 C CNN "Price"
+F 6 "BAT54C-7-F" H 2050 1550 60  0001 C CNN "Manufacturer Part Number"
+F 7 "BAT54C-FDICT-ND" H 2050 1650 60  0001 C CNN "Distributor Part Number"
+	1    2050 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1700 3500 1700
+Wire Wire Line
+	3500 1700 3500 1150
+Wire Wire Line
+	3500 1150 3850 1150
+Wire Wire Line
+	3750 1150 3750 1250
+Connection ~ 3750 1150
+Wire Wire Line
+	3400 1800 3750 1800
+Wire Wire Line
+	3750 1800 3750 1700
+Wire Wire Line
+	4250 1150 5250 1150
+Wire Wire Line
+	3400 1900 4200 1900
+Wire Wire Line
+	3850 1900 3850 1750
+Wire Wire Line
+	3850 1750 3950 1750
+Connection ~ 3850 1900
+Wire Wire Line
+	3400 2000 4200 2000
+Wire Wire Line
+	3850 2000 3850 2150
+Wire Wire Line
+	3850 2150 3950 2150
+Connection ~ 3850 2000
+Wire Wire Line
+	4450 2150 4550 2150
+Wire Wire Line
+	4450 1750 4550 1750
+NoConn ~ 3400 2100
+Wire Wire Line
+	2150 2100 2050 2100
+Wire Wire Line
+	2150 2000 1600 2000
+Wire Wire Line
+	1600 2000 1600 2300
+Wire Wire Line
+	1600 2300 1350 2300
+Wire Wire Line
+	1350 2200 1350 2400
+Connection ~ 1350 2300
+Wire Wire Line
+	1350 1800 1350 1700
+Wire Wire Line
+	1350 1700 2150 1700
+Wire Wire Line
+	2300 1350 2400 1350
+Wire Wire Line
+	2050 1500 2050 1700
+Connection ~ 2050 1700
+$Comp
+L BATT_2032 BT1
+U 1 1 54D55D62
+P 1400 1350
+F 0 "BT1" H 1400 1550 50  0000 C CNN
+F 1 "BATT_2032" H 1400 1160 50  0000 C CNN
+F 2 "~" H 1400 1350 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/BU2032SM-BT-GTR/BU2032SM-BT-GTR-ND/2439521" H 1400 2000 60  0001 C CNN
+F 4 "0.35" H 2250 1800 60  0001 C CNN "Price (1500)"
+F 5 "0.60" H 2250 1900 60  0001 C CNN "Price"
+F 6 "BU2032SM-BT-GCT-ND" H 1400 1900 60  0001 C CNN "Distributor Part Number"
+F 7 "BU2032SM-BT-GTR" H 1400 1700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "BU2032SM-BT-GTR-ND" H 1400 1800 60  0001 C CNN "Misc"
+	1    1400 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 1350 1000 2400
+Wire Wire Line
+	1800 1350 1700 1350
+Wire Wire Line
+	1100 1350 1000 1350
+Wire Wire Line
+	5250 1150 5250 2400
+Wire Wire Line
+	2400 1350 2400 1250
+$Comp
+L 0.1uF C1
+U 1 1 55BA0DD2
+P 1350 2000
+F 0 "C1" H 1350 2100 40  0000 L CNN
+F 1 "0.1uF" H 1356 1915 40  0000 L CNN
+F 2 "0805" H 2250 2350 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21B104KBCNNNC/1276-1003-1-ND/3889089" H 1300 2650 60  0001 C CNN
+F 4 "0.0114" H 2100 2450 60  0001 C CNN "Price (1500)"
+F 5 "CL21B104KBCNNNC" H 1300 2450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 0.1UF 50V 10% X7R 0805" H 1300 2350 60  0001 C CNN "Misc"
+F 7 "0.10" H 2050 2550 60  0001 C CNN "Price"
+F 8 "1276-1003-1-ND" H 1300 2550 60  0001 C CNN "Distributor Part Number"
+	1    1350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10pF C2
+U 1 1 55BA11CE
+P 4050 1150
+F 0 "C2" H 4050 1250 40  0000 L CNN
+F 1 "10pF" H 4056 1065 40  0000 L CNN
+F 2 "0805" H 4088 1000 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21C100JBANNNC/1276-1109-1-ND/3889195" H 4000 1650 60  0001 C CNN
+F 4 "0.012" H 4900 1450 60  0001 C CNN "Price (1500)"
+F 5 "CL21C100JBANNNC" H 4050 1450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 10PF 50V 5% NP0 0805" H 4050 1750 60  0001 C CNN "Misc"
+F 7 "0.10" H 4850 1550 60  0001 C CNN "Price"
+F 8 "1276-1109-1-ND" H 4050 1550 60  0001 C CNN "Distributor Part Number"
+	1    4050 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2.2ko R2
+U 1 1 55BA149F
+P 4200 2150
+F 0 "R2" V 4280 2150 40  0000 C CNN
+F 1 "2.2ko" V 4207 2151 40  0000 C CNN
+F 2 "0805" V 4130 2150 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2201V/P2.20KCCT-ND/1746832" H 4200 2750 30  0001 C CNN
+F 4 "0.008" V 4480 2350 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2201V" V 4680 2550 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 2.2K OHM 1% 1/8W 0805" H 4000 2550 60  0001 C CNN "Misc"
+F 7 "0.10" H 5000 2650 60  0001 C CNN "Price"
+F 8 "P2.20KCCT-ND" H 4100 2650 60  0001 C CNN "Distributor Part Number"
+	1    4200 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L 2.2ko R1
+U 1 1 55BA1521
+P 4200 1750
+F 0 "R1" V 4280 1750 40  0000 C CNN
+F 1 "2.2ko" V 4207 1751 40  0000 C CNN
+F 2 "0805" V 4130 1750 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2201V/P2.20KCCT-ND/1746832" H 4200 2350 30  0001 C CNN
+F 4 "0.008" V 4480 1950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2201V" V 4680 2150 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 2.2K OHM 1% 1/8W 0805" H 4000 2150 60  0001 C CNN "Misc"
+F 7 "0.10" H 5000 2250 60  0001 C CNN "Price"
+F 8 "P2.20KCCT-ND" H 4100 2250 60  0001 C CNN "Distributor Part Number"
+	1    4200 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L 32768Hz/6pF X1
+U 1 1 55BA17A3
+P 3750 1500
+F 0 "X1" H 3750 1650 60  0000 C CNN
+F 1 "32768Hz/6pF" H 3750 1350 60  0000 C CNN
+F 2 "" H 3750 1500 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ABS25-32.768KHZ-6-T/535-10240-1-ND/2218053" H 3750 2000 60  0001 C CNN
+F 4 "0.3192" H 4650 1800 60  0001 C CNN "Price (1500)"
+F 5 "0.60" H 4600 1900 60  0001 C CNN "Price"
+F 6 "535-10240-1-ND" H 3750 1900 60  0001 C CNN "Distributor Part Number"
+F 7 "ABS25-32.768KHZ-6-T" H 3750 1800 60  0001 C CNN "Manufacturer Part Number"
+	1    3750 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L PCF8563T/5 U1
+U 1 1 55D9A719
+P 2800 1900
+F 0 "U1" H 2800 1500 60  0000 C CNN
+F 1 "PCF8563T/5" H 2800 2300 60  0000 C CNN
+F 2 "" H 2700 1800 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PCF8563T%2F5,518/568-6650-1-ND/2617089" H 2750 2700 60  0001 C CNN
+F 4 "0.5208" H 3550 2500 60  0001 C CNN "Price (1500)"
+F 5 "1.21" H 3500 2600 60  0001 C CNN "Price"
+F 6 "568-6650-1-ND" H 2800 2600 60  0001 C CNN "Distributor Part Number"
+F 7 "PCF8563T/5,518" H 2800 2500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RTC" H 2800 2800 60  0001 C CNN "Misc"
+	1    2800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 PIN_3V3
+U 1 1 563923FE
+P 7500 1400
+F 0 "PIN_3V3" H 7500 1500 50  0000 C CNN
+F 1 "CONN_01X01" H 7500 1300 50  0000 C CNN
+F 2 "" H 7500 1400 60  0000 C CNN
+F 3 "" H 7500 1400 60  0000 C CNN
+	1    7500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 PIN_GND1
+U 1 1 563927B3
+P 7500 1750
+F 0 "PIN_GND1" H 7500 1850 50  0000 C CNN
+F 1 "CONN_01X01" H 7500 1650 50  0000 C CNN
+F 2 "" H 7500 1750 60  0000 C CNN
+F 3 "" H 7500 1750 60  0000 C CNN
+	1    7500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 PIN_SCK1
+U 1 1 5639280F
+P 7500 2100
+F 0 "PIN_SCK1" H 7500 2200 50  0000 C CNN
+F 1 "CONN_01X01" H 7500 2000 50  0000 C CNN
+F 2 "" H 7500 2100 60  0000 C CNN
+F 3 "" H 7500 2100 60  0000 C CNN
+	1    7500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 PIN_SDA1
+U 1 1 56392815
+P 7500 2450
+F 0 "PIN_SDA1" H 7500 2550 50  0000 C CNN
+F 1 "CONN_01X01" H 7500 2350 50  0000 C CNN
+F 2 "" H 7500 2450 60  0000 C CNN
+F 3 "" H 7500 2450 60  0000 C CNN
+	1    7500 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 1250 1    60   Input ~ 0
++3V3
+Text GLabel 4550 2150 2    60   Input ~ 0
++3V3
+Text GLabel 4550 1750 2    60   Input ~ 0
++3V3
+Text GLabel 7200 1400 0    60   Input ~ 0
++3V3
+$Comp
+L CONN_01X01 PIN_INT
+U 1 1 5639323B
+P 7500 2800
+F 0 "PIN_INT" H 7500 2900 50  0000 C CNN
+F 1 "CONN_01X01" H 7500 2700 50  0000 C CNN
+F 2 "" H 7500 2800 60  0000 C CNN
+F 3 "" H 7500 2800 60  0000 C CNN
+	1    7500 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7200 1750 0    60   Input ~ 0
+GND
+Text GLabel 1000 2400 3    60   Input ~ 0
+GND
+Text GLabel 1350 2400 3    60   Input ~ 0
+GND
+Text GLabel 5250 2400 3    60   Input ~ 0
+GND
+Text GLabel 7200 2100 0    60   Input ~ 0
+SCK
+Text GLabel 7200 2450 0    60   Input ~ 0
+SDA
+Text GLabel 7200 2800 0    60   Input ~ 0
+INT
+Text GLabel 4200 1900 2    60   Input ~ 0
+SCK
+Text GLabel 4200 2000 2    60   Input ~ 0
+SDA
+Text GLabel 2050 2100 0    60   Input ~ 0
+INT
+$EndSCHEMATC
