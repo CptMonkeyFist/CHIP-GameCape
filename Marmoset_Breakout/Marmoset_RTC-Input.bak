@@ -1,0 +1,883 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Marmoset
+LIBS:Marmoset (2)
+LIBS:Marmoset-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "Marmoset"
+Date "21 feb 2015"
+Rev "1.0"
+Comp "Prime8Bit"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SW_TACT BTN_UP1
+U 1 1 54D18AAE
+P 2300 1600
+F 0 "BTN_UP1" H 2500 1700 50  0000 C CNN
+F 1 "SW_TACT" H 2300 1520 50  0000 C CNN
+F 2 "~" H 2300 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 2300 2100 60  0001 C CNN
+F 4 "0.3498" H 3100 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 3050 2000 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 2300 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 2300 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    2300 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_TACT BTN_DOWN1
+U 1 1 54D18AE1
+P 2600 1600
+F 0 "BTN_DOWN1" H 2850 1700 50  0000 C CNN
+F 1 "SW_TACT" H 2600 1520 50  0000 C CNN
+F 2 "~" H 2600 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 2600 2100 60  0001 C CNN
+F 4 "0.3498" H 3400 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 3350 2000 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 2600 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 2600 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    2600 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_TACT BTN_LEFT1
+U 1 1 54D18AFD
+P 2900 1600
+F 0 "BTN_LEFT1" H 3150 1700 50  0000 C CNN
+F 1 "SW_TACT" H 2900 1520 50  0000 C CNN
+F 2 "~" H 2900 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 2900 2100 60  0001 C CNN
+F 4 "0.3498" H 3700 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 3650 2000 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 2900 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 2900 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    2900 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_TACT BTN_RIGHT1
+U 1 1 54D18B07
+P 3200 1600
+F 0 "BTN_RIGHT1" H 3450 1700 50  0000 C CNN
+F 1 "SW_TACT" H 3200 1520 50  0000 C CNN
+F 2 "~" H 3200 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 3200 2100 60  0001 C CNN
+F 4 "0.3498" H 4000 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 3950 2000 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 3200 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 3200 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    3200 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_TACT BTN_A1
+U 1 1 54D18B11
+P 3500 1600
+F 0 "BTN_A1" H 3700 1700 50  0000 C CNN
+F 1 "SW_TACT" H 3500 1520 50  0000 C CNN
+F 2 "~" H 3500 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 3500 2100 60  0001 C CNN
+F 4 "0.3498" H 4300 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 4250 2000 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 3500 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 3500 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    3500 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_TACT BTN_B1
+U 1 1 54D18B1B
+P 3800 1600
+F 0 "BTN_B1" H 4000 1700 50  0000 C CNN
+F 1 "SW_TACT" H 3800 1520 50  0000 C CNN
+F 2 "~" H 3800 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 3800 2100 60  0001 C CNN
+F 4 "0.3498" H 4600 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 4550 2000 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 3800 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 3800 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    3800 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_TACT BTN_X1
+U 1 1 54D18B25
+P 4100 1600
+F 0 "BTN_X1" H 4300 1700 50  0000 C CNN
+F 1 "SW_TACT" H 4100 1520 50  0000 C CNN
+F 2 "~" H 4100 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 4100 2100 60  0001 C CNN
+F 4 "0.3498" H 4900 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 4850 2000 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 4100 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 4100 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    4100 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_TACT BTN_Y1
+U 1 1 54D18B2F
+P 4400 1600
+F 0 "BTN_Y1" H 4600 1700 50  0000 C CNN
+F 1 "SW_TACT" H 4400 1520 50  0000 C CNN
+F 2 "~" H 4400 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 4400 2100 60  0001 C CNN
+F 4 "0.3498" H 5200 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 5150 2000 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 4400 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 4400 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    4400 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_TACT BTN_START1
+U 1 1 54D18B39
+P 4700 1600
+F 0 "BTN_START1" H 4950 1700 50  0000 C CNN
+F 1 "SW_TACT" H 4700 1520 50  0000 C CNN
+F 2 "~" H 4700 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 4700 2100 60  0001 C CNN
+F 4 "0.3498" H 5500 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 5450 2000 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 4700 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 4700 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    4700 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_TACT BTN_SEL1
+U 1 1 54D18B43
+P 5000 1600
+F 0 "BTN_SEL1" H 5250 1700 50  0000 C CNN
+F 1 "SW_TACT" H 5000 1520 50  0000 C CNN
+F 2 "~" H 5000 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 5000 2100 60  0001 C CNN
+F 4 "0.3498" H 5800 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 5750 2000 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 5000 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 5000 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    5000 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_TACT_RA BTN_L1
+U 1 1 54D18B4B
+P 5300 1600
+F 0 "BTN_L1" H 5500 1700 50  0000 C CNN
+F 1 "SW_TACT_RA" H 5300 1520 50  0000 C CNN
+F 2 "~" H 5300 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/B3F-3120/SW407-ND/38364" H 5300 2100 60  0001 C CNN
+F 4 "0.28995" H 6100 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.54" H 6050 2000 60  0001 C CNN "Price"
+F 6 "SW407-ND" H 5300 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "B3F-3120" H 5300 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    5300 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_TACT_RA BTN_R1
+U 1 1 54D18B87
+P 5600 1600
+F 0 "BTN_R1" H 5800 1700 50  0000 C CNN
+F 1 "SW_TACT_RA" H 5600 1520 50  0000 C CNN
+F 2 "~" H 5600 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/B3F-3120/SW407-ND/38364" H 5600 2100 60  0001 C CNN
+F 4 "0.28995" H 6400 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.54" H 6350 2000 60  0001 C CNN "Price"
+F 6 "SW407-ND" H 5600 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "B3F-3120" H 5600 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    5600 1600
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2300 3950 3    60   Input ~ 0
+GND
+Text HLabel 2600 3950 3    60   Input ~ 0
+GND
+Text HLabel 2900 3950 3    60   Input ~ 0
+GND
+Text HLabel 3200 3950 3    60   Input ~ 0
+GND
+Text HLabel 3500 3950 3    60   Input ~ 0
+GND
+Text HLabel 3800 3950 3    60   Input ~ 0
+GND
+Text HLabel 4100 3950 3    60   Input ~ 0
+GND
+Text HLabel 4400 3950 3    60   Input ~ 0
+GND
+Text HLabel 4700 3950 3    60   Input ~ 0
+GND
+Text HLabel 5000 3950 3    60   Input ~ 0
+GND
+Text HLabel 5300 3950 3    60   Input ~ 0
+GND
+Text HLabel 5600 3950 3    60   Input ~ 0
+GND
+Text HLabel 2200 1950 0    60   Output ~ 0
+BTN_UP
+Text HLabel 2200 2050 0    60   Output ~ 0
+BTN_DOWN
+Text HLabel 2200 2150 0    60   Output ~ 0
+BTN_LEFT
+Text HLabel 2200 2250 0    60   Output ~ 0
+BTN_RIGHT
+Text HLabel 2200 2350 0    60   Output ~ 0
+BTN_A
+Text HLabel 2200 2450 0    60   Output ~ 0
+BTN_B
+Text HLabel 2200 2550 0    60   Output ~ 0
+BTN_X
+Text HLabel 2200 2650 0    60   Output ~ 0
+BTN_Y
+Text HLabel 2200 2950 0    60   Output ~ 0
+BTN_L
+Text HLabel 2200 2750 0    60   Output ~ 0
+BTN_START
+Text HLabel 2200 2850 0    60   Output ~ 0
+BTN_SELECT
+Text HLabel 2200 3050 0    60   Output ~ 0
+BTN_R
+$Comp
+L BAT54C D1
+U 1 1 54D54764
+P 2150 6050
+F 0 "D1" H 2300 5950 40  0000 C CNN
+F 1 "BAT54C" H 2150 6150 40  0000 C CNN
+F 2 "SOT-23" H 2150 6550 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/BAT54C-7-F/BAT54C-FDICT-ND/717821" H 2200 6450 60  0001 C CNN
+F 4 "0.04017" H 2900 6250 60  0001 C CNN "Price (1500)"
+F 5 "0.20" H 2800 6350 60  0001 C CNN "Price"
+F 6 "BAT54C-7-F" H 2150 6250 60  0001 C CNN "Manufacturer Part Number"
+F 7 "BAT54C-FDICT-ND" H 2150 6350 60  0001 C CNN "Distributor Part Number"
+	1    2150 6050
+	1    0    0    -1  
+$EndComp
+Text HLabel 4300 6600 2    60   Input ~ 0
+PIN10/TWI1-SCK
+Text HLabel 4300 6700 2    60   Input ~ 0
+PIN11/TWI1-SDA
+Text HLabel 1450 7100 3    60   Input ~ 0
+GND
+Wire Wire Line
+	2300 1150 2300 1350
+Wire Wire Line
+	2300 3850 2300 3950
+Wire Wire Line
+	2600 3850 2600 3950
+Wire Wire Line
+	2900 3850 2900 3950
+Wire Wire Line
+	3200 3850 3200 3950
+Wire Wire Line
+	3500 3850 3500 3950
+Wire Wire Line
+	3800 3850 3800 3950
+Wire Wire Line
+	4100 3850 4100 3950
+Wire Wire Line
+	4400 3850 4400 3950
+Wire Wire Line
+	4700 3850 4700 3950
+Wire Wire Line
+	5000 3850 5000 3950
+Wire Wire Line
+	5300 3850 5300 3950
+Wire Wire Line
+	5600 3850 5600 3950
+Wire Wire Line
+	2600 1150 2600 1350
+Wire Wire Line
+	2900 1150 2900 1350
+Wire Wire Line
+	3200 1150 3200 1350
+Wire Wire Line
+	3500 1150 3500 1350
+Wire Wire Line
+	3800 1150 3800 1350
+Wire Wire Line
+	4100 1150 4100 1350
+Wire Wire Line
+	4400 1150 4400 1350
+Wire Wire Line
+	4700 1150 4700 1350
+Wire Wire Line
+	5000 1150 5000 1350
+Wire Wire Line
+	5300 1150 5300 1350
+Wire Wire Line
+	5600 1150 5600 1350
+Wire Wire Line
+	2300 1850 2300 3350
+Wire Wire Line
+	2300 1950 2200 1950
+Wire Wire Line
+	2600 1850 2600 3350
+Wire Wire Line
+	2600 2050 2200 2050
+Connection ~ 2300 1950
+Connection ~ 2600 2050
+Wire Wire Line
+	2900 1850 2900 3350
+Wire Wire Line
+	2900 2150 2200 2150
+Connection ~ 2900 2150
+Wire Wire Line
+	3200 1850 3200 3350
+Wire Wire Line
+	3200 2250 2200 2250
+Connection ~ 3200 2250
+Wire Wire Line
+	3500 1850 3500 3350
+Wire Wire Line
+	3500 2350 2200 2350
+Connection ~ 3500 2350
+Wire Wire Line
+	3800 1850 3800 3350
+Wire Wire Line
+	3800 2450 2200 2450
+Connection ~ 3800 2450
+Wire Wire Line
+	4100 1850 4100 3350
+Wire Wire Line
+	4100 2550 2200 2550
+Connection ~ 4100 2550
+Wire Wire Line
+	4400 1850 4400 3350
+Wire Wire Line
+	4400 2650 2200 2650
+Connection ~ 4400 2650
+Wire Wire Line
+	4700 1850 4700 3350
+Wire Wire Line
+	4700 2750 2200 2750
+Connection ~ 4700 2750
+Wire Wire Line
+	5000 1850 5000 3350
+Wire Wire Line
+	5000 2850 2200 2850
+Connection ~ 5000 2850
+Wire Wire Line
+	5300 1850 5300 3350
+Wire Wire Line
+	5300 2950 2200 2950
+Connection ~ 5300 2950
+Wire Wire Line
+	5600 1850 5600 3350
+Connection ~ 5600 3050
+Wire Wire Line
+	3500 6400 3600 6400
+Wire Wire Line
+	3600 6400 3600 5850
+Wire Wire Line
+	3600 5850 3950 5850
+Wire Wire Line
+	3850 5850 3850 5950
+Connection ~ 3850 5850
+Wire Wire Line
+	3500 6500 3850 6500
+Wire Wire Line
+	3850 6500 3850 6400
+Wire Wire Line
+	4350 5850 5350 5850
+Wire Wire Line
+	3500 6600 4300 6600
+Wire Wire Line
+	3950 6600 3950 6450
+Wire Wire Line
+	3950 6450 4050 6450
+Connection ~ 3950 6600
+Wire Wire Line
+	3500 6700 4300 6700
+Wire Wire Line
+	3950 6700 3950 6850
+Wire Wire Line
+	3950 6850 4050 6850
+Connection ~ 3950 6700
+Wire Wire Line
+	4550 6850 4650 6850
+Wire Wire Line
+	4550 6450 4650 6450
+NoConn ~ 3500 6800
+Wire Wire Line
+	2250 6800 2150 6800
+Wire Wire Line
+	2250 6700 1700 6700
+Wire Wire Line
+	1700 6700 1700 7000
+Wire Wire Line
+	1700 7000 1450 7000
+Wire Wire Line
+	1450 6900 1450 7100
+Connection ~ 1450 7000
+Wire Wire Line
+	1450 6500 1450 6400
+Wire Wire Line
+	1450 6400 2250 6400
+Wire Wire Line
+	2400 6050 2500 6050
+Wire Wire Line
+	2150 6200 2150 6400
+Connection ~ 2150 6400
+$Comp
+L BATT_2032 BT1
+U 1 1 54D55D62
+P 1500 6050
+F 0 "BT1" H 1500 6250 50  0000 C CNN
+F 1 "BATT_2032" H 1500 5860 50  0000 C CNN
+F 2 "~" H 1500 6050 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/BU2032SM-BT-GTR/BU2032SM-BT-GTR-ND/2439521" H 1500 6700 60  0001 C CNN
+F 4 "0.35" H 2350 6500 60  0001 C CNN "Price (1500)"
+F 5 "0.60" H 2350 6600 60  0001 C CNN "Price"
+F 6 "BU2032SM-BT-GCT-ND" H 1500 6600 60  0001 C CNN "Distributor Part Number"
+F 7 "BU2032SM-BT-GTR" H 1500 6400 60  0001 C CNN "Manufacturer Part Number"
+F 8 "BU2032SM-BT-GTR-ND" H 1500 6500 60  0001 C CNN "Misc"
+	1    1500 6050
+	-1   0    0    1   
+$EndComp
+Text HLabel 1100 7100 3    60   Input ~ 0
+GND
+Wire Wire Line
+	1100 6050 1100 7100
+Wire Wire Line
+	1900 6050 1800 6050
+Wire Wire Line
+	1200 6050 1100 6050
+Text HLabel 5350 7100 3    60   Input ~ 0
+GND
+Wire Wire Line
+	5350 5850 5350 7100
+Text HLabel 7350 3100 3    60   Input ~ 0
+GND
+Text HLabel 2900 1150 1    60   Input ~ 0
++3V3
+Text HLabel 3200 1150 1    60   Input ~ 0
++3V3
+Text HLabel 3500 1150 1    60   Input ~ 0
++3V3
+Text HLabel 3800 1150 1    60   Input ~ 0
++3V3
+Text HLabel 4100 1150 1    60   Input ~ 0
++3V3
+Text HLabel 4400 1150 1    60   Input ~ 0
++3V3
+Text HLabel 4700 1150 1    60   Input ~ 0
++3V3
+Text HLabel 5000 1150 1    60   Input ~ 0
++3V3
+Text HLabel 5300 1150 1    60   Input ~ 0
++3V3
+Text HLabel 5600 1150 1    60   Input ~ 0
++3V3
+Wire Wire Line
+	2500 6050 2500 5950
+$Comp
+L 10ko R6
+U 1 1 55B9D93B
+P 2300 3600
+F 0 "R6" V 2380 3600 40  0000 C CNN
+F 1 "10ko" V 2307 3601 40  0000 C CNN
+F 2 "" V 2230 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 2300 4150 30  0001 C CNN
+F 4 "0.00675" H 3050 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 2300 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 2250 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 3000 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 2300 4050 60  0001 C CNN "Distributor Part Number"
+	1    2300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10ko R7
+U 1 1 55B9DA14
+P 2600 3600
+F 0 "R7" V 2680 3600 40  0000 C CNN
+F 1 "10ko" V 2607 3601 40  0000 C CNN
+F 2 "" V 2530 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 2600 4150 30  0001 C CNN
+F 4 "0.00675" H 3350 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 2600 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 2550 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 3300 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 2600 4050 60  0001 C CNN "Distributor Part Number"
+	1    2600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10ko R8
+U 1 1 55B9DA5F
+P 2900 3600
+F 0 "R8" V 2980 3600 40  0000 C CNN
+F 1 "10ko" V 2907 3601 40  0000 C CNN
+F 2 "" V 2830 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 2900 4150 30  0001 C CNN
+F 4 "0.00675" H 3650 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 2900 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 2850 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 3600 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 2900 4050 60  0001 C CNN "Distributor Part Number"
+	1    2900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10ko R9
+U 1 1 55B9DA6A
+P 3200 3600
+F 0 "R9" V 3280 3600 40  0000 C CNN
+F 1 "10ko" V 3207 3601 40  0000 C CNN
+F 2 "" V 3130 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 3200 4150 30  0001 C CNN
+F 4 "0.00675" H 3950 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 3200 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 3150 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 3900 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 3200 4050 60  0001 C CNN "Distributor Part Number"
+	1    3200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10ko R10
+U 1 1 55B9DADF
+P 3500 3600
+F 0 "R10" V 3580 3600 40  0000 C CNN
+F 1 "10ko" V 3507 3601 40  0000 C CNN
+F 2 "" V 3430 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 3500 4150 30  0001 C CNN
+F 4 "0.00675" H 4250 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 3500 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 3450 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 4200 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 3500 4050 60  0001 C CNN "Distributor Part Number"
+	1    3500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10ko R11
+U 1 1 55B9DAEA
+P 3800 3600
+F 0 "R11" V 3880 3600 40  0000 C CNN
+F 1 "10ko" V 3807 3601 40  0000 C CNN
+F 2 "" V 3730 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 3800 4150 30  0001 C CNN
+F 4 "0.00675" H 4550 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 3800 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 3750 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 4500 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 3800 4050 60  0001 C CNN "Distributor Part Number"
+	1    3800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10ko R12
+U 1 1 55B9DAF5
+P 4100 3600
+F 0 "R12" V 4180 3600 40  0000 C CNN
+F 1 "10ko" V 4107 3601 40  0000 C CNN
+F 2 "" V 4030 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 4100 4150 30  0001 C CNN
+F 4 "0.00675" H 4850 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 4100 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 4050 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 4800 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 4100 4050 60  0001 C CNN "Distributor Part Number"
+	1    4100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10ko R15
+U 1 1 55B9DB00
+P 4400 3600
+F 0 "R15" V 4480 3600 40  0000 C CNN
+F 1 "10ko" V 4407 3601 40  0000 C CNN
+F 2 "" V 4330 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 4400 4150 30  0001 C CNN
+F 4 "0.00675" H 5150 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 4400 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 4350 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 5100 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 4400 4050 60  0001 C CNN "Distributor Part Number"
+	1    4400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10ko R16
+U 1 1 55B9DBAD
+P 4700 3600
+F 0 "R16" V 4780 3600 40  0000 C CNN
+F 1 "10ko" V 4707 3601 40  0000 C CNN
+F 2 "" V 4630 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 4700 4150 30  0001 C CNN
+F 4 "0.00675" H 5450 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 4700 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 4650 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 5400 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 4700 4050 60  0001 C CNN "Distributor Part Number"
+	1    4700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10ko R17
+U 1 1 55B9DBB8
+P 5000 3600
+F 0 "R17" V 5080 3600 40  0000 C CNN
+F 1 "10ko" V 5007 3601 40  0000 C CNN
+F 2 "" V 4930 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 5000 4150 30  0001 C CNN
+F 4 "0.00675" H 5750 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 5000 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 4950 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 5700 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 5000 4050 60  0001 C CNN "Distributor Part Number"
+	1    5000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10ko R18
+U 1 1 55B9DBC3
+P 5300 3600
+F 0 "R18" V 5380 3600 40  0000 C CNN
+F 1 "10ko" V 5307 3601 40  0000 C CNN
+F 2 "" V 5230 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 5300 4150 30  0001 C CNN
+F 4 "0.00675" H 6050 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 5300 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 5250 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 6000 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 5300 4050 60  0001 C CNN "Distributor Part Number"
+	1    5300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10ko R19
+U 1 1 55B9DBCE
+P 5600 3600
+F 0 "R19" V 5680 3600 40  0000 C CNN
+F 1 "10ko" V 5607 3601 40  0000 C CNN
+F 2 "" V 5530 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 5600 4150 30  0001 C CNN
+F 4 "0.00675" H 6350 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 5600 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 5550 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 6300 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 5600 4050 60  0001 C CNN "Distributor Part Number"
+	1    5600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF C3
+U 1 1 55BA0DD2
+P 1450 6700
+F 0 "C3" H 1450 6800 40  0000 L CNN
+F 1 "0.1uF" H 1456 6615 40  0000 L CNN
+F 2 "0805" H 2350 7050 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21B104KBCNNNC/1276-1003-1-ND/3889089" H 1400 7350 60  0001 C CNN
+F 4 "0.0114" H 2200 7150 60  0001 C CNN "Price (1500)"
+F 5 "CL21B104KBCNNNC" H 1400 7150 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 0.1UF 50V 10% X7R 0805" H 1400 7050 60  0001 C CNN "Misc"
+F 7 "0.10" H 2150 7250 60  0001 C CNN "Price"
+F 8 "1276-1003-1-ND" H 1400 7250 60  0001 C CNN "Distributor Part Number"
+	1    1450 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10pF C4
+U 1 1 55BA11CE
+P 4150 5850
+F 0 "C4" H 4150 5950 40  0000 L CNN
+F 1 "10pF" H 4156 5765 40  0000 L CNN
+F 2 "0805" H 4188 5700 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21C100JBANNNC/1276-1109-1-ND/3889195" H 4100 6350 60  0001 C CNN
+F 4 "0.012" H 5000 6150 60  0001 C CNN "Price (1500)"
+F 5 "CL21C100JBANNNC" H 4150 6150 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 10PF 50V 5% NP0 0805" H 4150 6450 60  0001 C CNN "Misc"
+F 7 "0.10" H 4950 6250 60  0001 C CNN "Price"
+F 8 "1276-1109-1-ND" H 4150 6250 60  0001 C CNN "Distributor Part Number"
+	1    4150 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2.2ko R14
+U 1 1 55BA149F
+P 4300 6850
+F 0 "R14" V 4380 6850 40  0000 C CNN
+F 1 "2.2ko" V 4307 6851 40  0000 C CNN
+F 2 "0805" V 4230 6850 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2201V/P2.20KCCT-ND/1746832" H 4300 7450 30  0001 C CNN
+F 4 "0.008" V 4580 7050 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2201V" V 4780 7250 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 2.2K OHM 1% 1/8W 0805" H 4100 7250 60  0001 C CNN "Misc"
+F 7 "0.10" H 5100 7350 60  0001 C CNN "Price"
+F 8 "P2.20KCCT-ND" H 4200 7350 60  0001 C CNN "Distributor Part Number"
+	1    4300 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L 2.2ko R13
+U 1 1 55BA1521
+P 4300 6450
+F 0 "R13" V 4380 6450 40  0000 C CNN
+F 1 "2.2ko" V 4307 6451 40  0000 C CNN
+F 2 "0805" V 4230 6450 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF2201V/P2.20KCCT-ND/1746832" H 4300 7050 30  0001 C CNN
+F 4 "0.008" V 4580 6650 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF2201V" V 4780 6850 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 2.2K OHM 1% 1/8W 0805" H 4100 6850 60  0001 C CNN "Misc"
+F 7 "0.10" H 5100 6950 60  0001 C CNN "Price"
+F 8 "P2.20KCCT-ND" H 4200 6950 60  0001 C CNN "Distributor Part Number"
+	1    4300 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L 32768Hz/6pF X1
+U 1 1 55BA17A3
+P 3850 6200
+F 0 "X1" H 3850 6350 60  0000 C CNN
+F 1 "32768Hz/6pF" H 3850 6050 60  0000 C CNN
+F 2 "" H 3850 6200 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ABS25-32.768KHZ-6-T/535-10240-1-ND/2218053" H 3850 6700 60  0001 C CNN
+F 4 "0.3192" H 4750 6500 60  0001 C CNN "Price (1500)"
+F 5 "0.60" H 4700 6600 60  0001 C CNN "Price"
+F 6 "535-10240-1-ND" H 3850 6600 60  0001 C CNN "Distributor Part Number"
+F 7 "ABS25-32.768KHZ-6-T" H 3850 6500 60  0001 C CNN "Manufacturer Part Number"
+	1    3850 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_TACT BTN_POWER1
+U 1 1 55BB1895
+P 7350 2750
+F 0 "BTN_POWER1" H 7400 2950 50  0000 C CNN
+F 1 "SW_TACT" H 7350 2670 50  0000 C CNN
+F 2 "~" H 7350 2750 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 7350 3250 60  0001 C CNN
+F 4 "0.3498" H 8150 3050 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 8100 3150 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 7350 3150 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 7350 3050 60  0001 C CNN "Manufacturer Part Number"
+	1    7350 2750
+	0    -1   1    0   
+$EndComp
+Text HLabel 7250 2400 0    60   Output ~ 0
+BTN_POWER
+Wire Wire Line
+	7350 3100 7350 3000
+Wire Wire Line
+	7350 2500 7350 2400
+Wire Wire Line
+	7350 2400 7250 2400
+Text Notes 6750 2200 0    60   ~ 0
+This is how CHIP implements the power button,\nso I will follow suit for my external button.
+Text HLabel 2150 6800 0    60   Output ~ 0
+CLK_INT
+Text HLabel 2300 1150 1    60   Input ~ 0
++3V3
+Text HLabel 2500 5950 1    60   Input ~ 0
++3V3
+Text HLabel 4650 6450 2    60   Input ~ 0
++3V3
+Text HLabel 4650 6850 2    60   Input ~ 0
++3V3
+Text HLabel 2600 1150 1    60   Input ~ 0
++3V3
+Wire Wire Line
+	5600 3050 2200 3050
+Text HLabel 5900 3950 3    60   Input ~ 0
+GND
+Wire Wire Line
+	5900 3850 5900 3950
+Wire Wire Line
+	5900 1150 5900 1350
+Wire Wire Line
+	5900 1850 5900 3350
+Connection ~ 5900 3150
+Text HLabel 5900 1150 1    60   Input ~ 0
++3V3
+$Comp
+L 10ko R20
+U 1 1 55D78148
+P 5900 3600
+F 0 "R20" V 5980 3600 40  0000 C CNN
+F 1 "10ko" V 5907 3601 40  0000 C CNN
+F 2 "" V 5830 3600 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 5900 4150 30  0001 C CNN
+F 4 "0.00675" H 6650 3950 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 5900 3950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 5850 4250 60  0001 C CNN "Misc"
+F 7 "0.10" H 6600 4050 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 5900 4050 60  0001 C CNN "Distributor Part Number"
+	1    5900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3150 2200 3150
+Text HLabel 2200 3150 0    60   Output ~ 0
+BTN_HOME
+$Comp
+L SW_TACT BTN_HOME1
+U 1 1 55D7941A
+P 5900 1600
+F 0 "BTN_HOME1" H 6150 1700 50  0000 C CNN
+F 1 "SW_TACT" H 5900 1520 50  0000 C CNN
+F 2 "~" H 5900 1600 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923" H 5900 2100 60  0001 C CNN
+F 4 "0.3498" H 6700 1900 60  0001 C CNN "Price (1500)"
+F 5 "0.65" H 6650 2000 60  0001 C CNN "Price"
+F 6 "CKN9104CT-ND" H 5900 2000 60  0001 C CNN "Distributor Part Number"
+F 7 "PTS525SM10SMTR LFS" H 5900 1900 60  0001 C CNN "Manufacturer Part Number"
+	1    5900 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PCF8563T/5 U5
+U 1 1 55D9A719
+P 2900 6600
+F 0 "U5" H 2900 6200 60  0000 C CNN
+F 1 "PCF8563T/5" H 2900 7000 60  0000 C CNN
+F 2 "" H 2800 6500 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/PCF8563T%2F5,518/568-6650-1-ND/2617089" H 2850 7400 60  0001 C CNN
+F 4 "0.5208" H 3650 7200 60  0001 C CNN "Price (1500)"
+F 5 "1.21" H 3600 7300 60  0001 C CNN "Price"
+F 6 "568-6650-1-ND" H 2900 7300 60  0001 C CNN "Distributor Part Number"
+F 7 "PCF8563T/5,518" H 2900 7200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RTC" H 2900 7500 60  0001 C CNN "Misc"
+	1    2900 6600
+	1    0    0    -1  
+$EndComp
+Text Notes 700  850  0    118  ~ 24
+INPUT & RTC
+$EndSCHEMATC

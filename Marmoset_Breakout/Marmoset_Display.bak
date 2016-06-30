@@ -1,0 +1,419 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Marmoset
+LIBS:Marmoset (2)
+LIBS:Marmoset-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title "Marmoset"
+Date "21 feb 2015"
+Rev "1.0"
+Comp "Prime8Bit"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4500 4050 0    60   Input ~ 0
+TFT_B0
+Text HLabel 4500 3950 0    60   Input ~ 0
+TFT_B1
+Text HLabel 4500 3850 0    60   Input ~ 0
+TFT_B2
+Text HLabel 4500 3750 0    60   Input ~ 0
+TFT_B3
+Text HLabel 4500 3650 0    60   Input ~ 0
+TFT_B4
+Text HLabel 4500 3550 0    60   Input ~ 0
+TFT_B5
+Text HLabel 4500 4650 0    60   Input ~ 0
+TFT_G0
+Text HLabel 4500 5250 0    60   Input ~ 0
+TFT_R0
+Text HLabel 4500 4550 0    60   Input ~ 0
+TFT_G1
+Text HLabel 4500 4450 0    60   Input ~ 0
+TFT_G2
+Text HLabel 4500 4350 0    60   Input ~ 0
+TFT_G3
+Text HLabel 4500 4250 0    60   Input ~ 0
+TFT_G4
+Text HLabel 4500 4150 0    60   Input ~ 0
+TFT_G5
+Text HLabel 4500 5150 0    60   Input ~ 0
+TFT_R1
+Text HLabel 4500 5050 0    60   Input ~ 0
+TFT_R2
+Text HLabel 4500 4950 0    60   Input ~ 0
+TFT_R3
+Text HLabel 4500 4850 0    60   Input ~ 0
+TFT_R4
+Text HLabel 4500 4750 0    60   Input ~ 0
+TFT_R5
+Text HLabel 3700 2250 0    60   Input ~ 0
++3V3
+NoConn ~ 4600 5450
+NoConn ~ 4600 5350
+NoConn ~ 4600 3450
+NoConn ~ 4600 3350
+NoConn ~ 4600 3250
+NoConn ~ 4600 3150
+Text HLabel 4400 2950 0    60   Input ~ 0
+GND
+Text HLabel 3800 2050 0    60   Input ~ 0
+GND
+Text HLabel 4400 2650 0    60   Input ~ 0
++3V3
+Text HLabel 4500 5650 0    60   Input ~ 0
+TFT_WR
+Text HLabel 4500 5850 0    60   Input ~ 0
+TFT_CS
+Text HLabel 4500 5550 0    60   Output ~ 0
+TFT_RD
+Text HLabel 4500 5750 0    60   Input ~ 0
+TFT_RS
+Text HLabel 3500 6050 0    60   Input ~ 0
++3V3
+Text HLabel 4500 7150 3    60   Input ~ 0
+GND
+Text HLabel 4500 6450 0    60   Output ~ 0
+TOUCH_L
+Text HLabel 4500 6550 0    60   Output ~ 0
+TOUCH_TOP
+Text HLabel 4500 6650 0    60   Output ~ 0
+TOUCH_R
+Text HLabel 4500 6750 0    60   Output ~ 0
+TOUCH_BOT
+Text HLabel 4500 6350 0    60   Input ~ 0
+GND
+NoConn ~ 4600 5950
+Text Notes 1300 3050 0    60   ~ 0
+Note: Setting [IM3,IM0] = 0011 configures\nthe display for 8080 MCU 18-bit interface I.\nI may need to change this during testing but\nonce I have the right interface, it should be \nhard wired.
+Text Notes 1650 6800 0    60   ~ 0
+TODO: This orientation is for the default portait\norientation of the screen. I may need to swap \nthese around to support the desired landscape \norientation.
+Text Notes 1100 2500 0    60   ~ 0
+Note: I could have used +5V0 here with 100o\nresistors for better accuracy, but I went with\n+3V3 with 4.99o resistors for increased efficiency.
+$Comp
+L DTC114YKA Q2
+U 1 1 54D2C560
+P 4200 1950
+F 0 "Q2" H 4200 1800 50  0000 R CNN
+F 1 "DTC114YKA" H 4200 2100 50  0000 R CNN
+F 2 "~" H 4200 1950 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/DTC114YKAT146/DTC114YKAT146CT-ND/650713" H 4200 2450 60  0001 C CNN
+F 4 "0.04017" H 5000 2250 60  0001 C CNN "Price (1500)"
+F 5 "0.20" H 4950 2350 60  0001 C CNN "Price"
+F 6 "DTC114YKAT146" H 4200 2250 60  0001 C CNN "Manufacturer Part Number"
+F 7 "DTC114YKAT146CT-ND" H 4200 2350 60  0001 C CNN "Distributor Part Number"
+	1    4200 1950
+	0    1    1    0   
+$EndComp
+Text HLabel 4200 1650 1    60   Input ~ 0
+TFT_BKL
+Wire Wire Line
+	4400 2950 4600 2950
+Wire Wire Line
+	3700 2250 3900 2250
+Wire Wire Line
+	3800 2250 3800 2550
+Wire Wire Line
+	3800 2350 3900 2350
+Connection ~ 3800 2250
+Wire Wire Line
+	4500 4750 4600 4750
+Wire Wire Line
+	4500 4850 4600 4850
+Wire Wire Line
+	4600 4950 4500 4950
+Wire Wire Line
+	4500 5050 4600 5050
+Wire Wire Line
+	4500 5150 4600 5150
+Wire Wire Line
+	4600 5250 4500 5250
+Wire Wire Line
+	4600 4150 4500 4150
+Wire Wire Line
+	4500 4250 4600 4250
+Wire Wire Line
+	4500 4350 4600 4350
+Wire Wire Line
+	4600 4450 4500 4450
+Wire Wire Line
+	4500 4550 4600 4550
+Wire Wire Line
+	4500 4650 4600 4650
+Wire Wire Line
+	4500 3550 4600 3550
+Wire Wire Line
+	4600 3650 4500 3650
+Wire Wire Line
+	4500 3750 4600 3750
+Wire Wire Line
+	4500 3850 4600 3850
+Wire Wire Line
+	4600 3950 4500 3950
+Wire Wire Line
+	4500 4050 4600 4050
+Wire Wire Line
+	3800 2450 3900 2450
+Connection ~ 3800 2350
+Wire Wire Line
+	3800 2550 3900 2550
+Connection ~ 3800 2450
+Wire Wire Line
+	4400 2650 4600 2650
+Wire Wire Line
+	4500 2650 4500 2750
+Wire Wire Line
+	4500 2750 4600 2750
+Connection ~ 4500 2650
+Wire Wire Line
+	4600 2850 4500 2850
+Wire Wire Line
+	4500 2850 4500 2950
+Connection ~ 4500 2950
+Wire Wire Line
+	4000 6050 4600 6050
+Wire Wire Line
+	4500 6050 4500 6250
+Wire Wire Line
+	4500 6150 4600 6150
+Connection ~ 4500 6050
+Wire Wire Line
+	4500 6850 4500 7150
+Wire Wire Line
+	4400 3050 4600 3050
+Wire Wire Line
+	4500 5550 4600 5550
+Wire Wire Line
+	4600 5650 4500 5650
+Wire Wire Line
+	4500 5750 4600 5750
+Wire Wire Line
+	4600 5850 4500 5850
+Wire Wire Line
+	4500 6450 4600 6450
+Wire Wire Line
+	4600 6550 4500 6550
+Wire Wire Line
+	4500 6650 4600 6650
+Wire Wire Line
+	4600 6750 4500 6750
+Wire Wire Line
+	4500 6850 4600 6850
+Connection ~ 4500 7050
+Wire Wire Line
+	4500 6950 4600 6950
+Connection ~ 4500 6950
+Wire Wire Line
+	4500 6250 4600 6250
+Connection ~ 4500 6150
+Wire Wire Line
+	4500 6350 4600 6350
+Wire Wire Line
+	4400 2250 4600 2250
+Wire Wire Line
+	4600 2350 4400 2350
+Wire Wire Line
+	4400 2450 4600 2450
+Wire Wire Line
+	4600 2550 4400 2550
+Wire Wire Line
+	4600 2150 4500 2150
+Wire Wire Line
+	4500 2150 4500 2050
+Wire Wire Line
+	4500 2050 4400 2050
+Wire Wire Line
+	4000 2050 3800 2050
+Wire Wire Line
+	4200 1650 4200 1750
+$Comp
+L DTC114YKA Q1
+U 1 1 54D82000
+P 3800 5950
+F 0 "Q1" H 3800 5800 50  0000 R CNN
+F 1 "DTC114YKA" H 3800 6100 50  0000 R CNN
+F 2 "~" H 3800 5950 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/DTC114YKAT146/DTC114YKAT146CT-ND/650713" H 3800 6450 60  0001 C CNN
+F 4 "0.04017" H 4600 6250 60  0001 C CNN "Price (1500)"
+F 5 "0.20" H 4550 6350 60  0001 C CNN "Price"
+F 6 "DTC114YKAT146" H 3800 6250 60  0001 C CNN "Manufacturer Part Number"
+F 7 "DTC114YKAT146CT-ND" H 3800 6350 60  0001 C CNN "Distributor Part Number"
+	1    3800 5950
+	0    1    1    0   
+$EndComp
+Text HLabel 3800 5650 1    60   Input ~ 0
+TFT_PWRE
+Wire Wire Line
+	3800 5650 3800 5750
+Wire Wire Line
+	3600 6050 3500 6050
+Text HLabel 5800 7150 3    60   Input ~ 0
+CGND
+Wire Wire Line
+	5800 6950 5800 7150
+Wire Wire Line
+	5700 6950 5800 6950
+Connection ~ 5800 7050
+Text HLabel 3800 3050 0    60   Input ~ 0
++3V3
+Wire Wire Line
+	3800 3050 3900 3050
+Text HLabel 3800 3250 0    60   Input ~ 0
+GND
+Wire Wire Line
+	4000 3250 3800 3250
+Wire Wire Line
+	4500 3050 4500 3250
+Wire Wire Line
+	4500 3250 4400 3250
+Connection ~ 4500 3050
+$Comp
+L 4.99_o R1
+U 1 1 55BE2139
+P 4150 2250
+F 0 "R1" V 4100 2500 40  0000 C CNN
+F 1 "4.99_o" V 4157 2251 40  0000 C CNN
+F 2 "0805" V 4080 2250 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC2012F4R99CS/1276-5173-1-ND/3968145" H 4150 2750 30  0001 C CNN
+F 4 "0.00408" V 4430 2450 60  0001 C CNN "Price (1500)"
+F 5 "RC2012F4R99CS" V 4630 2650 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 4.99 OHM 1% 1/8W 0805" V 4630 2650 60  0001 C CNN "Misc"
+F 7 "0.10" H 4700 2650 60  0001 C CNN "Price"
+F 8 "1276-5173-1-ND" H 4150 2650 60  0001 C CNN "Distributor Part Number"
+	1    4150 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L 4.99_o R2
+U 1 1 55BE224E
+P 4150 2350
+F 0 "R2" V 4100 2600 40  0000 C CNN
+F 1 "4.99_o" V 4157 2351 40  0000 C CNN
+F 2 "0805" V 4080 2350 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC2012F4R99CS/1276-5173-1-ND/3968145" H 4150 2850 30  0001 C CNN
+F 4 "0.00408" V 4430 2550 60  0001 C CNN "Price (1500)"
+F 5 "RC2012F4R99CS" V 4630 2750 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 4.99 OHM 1% 1/8W 0805" V 4630 2750 60  0001 C CNN "Misc"
+F 7 "0.10" H 4700 2750 60  0001 C CNN "Price"
+F 8 "1276-5173-1-ND" H 4150 2750 60  0001 C CNN "Distributor Part Number"
+	1    4150 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L 4.99_o R3
+U 1 1 55BE2266
+P 4150 2450
+F 0 "R3" V 4100 2700 40  0000 C CNN
+F 1 "4.99_o" V 4157 2451 40  0000 C CNN
+F 2 "0805" V 4080 2450 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC2012F4R99CS/1276-5173-1-ND/3968145" H 4150 2950 30  0001 C CNN
+F 4 "0.00408" V 4430 2650 60  0001 C CNN "Price (1500)"
+F 5 "RC2012F4R99CS" V 4630 2850 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 4.99 OHM 1% 1/8W 0805" V 4630 2850 60  0001 C CNN "Misc"
+F 7 "0.10" H 4700 2850 60  0001 C CNN "Price"
+F 8 "1276-5173-1-ND" H 4150 2850 60  0001 C CNN "Distributor Part Number"
+	1    4150 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L 4.99_o R4
+U 1 1 55BE2283
+P 4150 2550
+F 0 "R4" V 4100 2800 40  0000 C CNN
+F 1 "4.99_o" V 4157 2551 40  0000 C CNN
+F 2 "0805" V 4080 2550 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/RC2012F4R99CS/1276-5173-1-ND/3968145" H 4150 3050 30  0001 C CNN
+F 4 "0.00408" V 4430 2750 60  0001 C CNN "Price (1500)"
+F 5 "RC2012F4R99CS" V 4630 2950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 4.99 OHM 1% 1/8W 0805" V 4630 2950 60  0001 C CNN "Misc"
+F 7 "0.10" H 4700 2950 60  0001 C CNN "Price"
+F 8 "1276-5173-1-ND" H 4150 2950 60  0001 C CNN "Distributor Part Number"
+	1    4150 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L 0.1uF C2
+U 1 1 55BE2417
+P 4200 3250
+F 0 "C2" H 4200 3350 40  0000 L CNN
+F 1 "0.1uF" H 4206 3165 40  0000 L CNN
+F 2 "0805" H 5100 3600 30  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/CL21B104KBCNNNC/1276-1003-1-ND/3889089" H 4150 3900 60  0001 C CNN
+F 4 "0.0114" H 4950 3700 60  0001 C CNN "Price (1500)"
+F 5 "CL21B104KBCNNNC" H 4150 3700 60  0001 C CNN "Manufacturer Part Number"
+F 6 "CAP CER 0.1UF 50V 10% X7R 0805" H 4150 3600 60  0001 C CNN "Misc"
+F 7 "0.10" H 4900 3800 60  0001 C CNN "Price"
+F 8 "1276-1003-1-ND" H 4150 3800 60  0001 C CNN "Distributor Part Number"
+	1    4200 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L 10ko R5
+U 1 1 55BE24A1
+P 4150 3050
+F 0 "R5" V 4200 3250 40  0000 C CNN
+F 1 "10ko" V 4157 3051 40  0000 C CNN
+F 2 "" V 4080 3050 30  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248" H 4150 3600 30  0001 C CNN
+F 4 "0.00675" H 4900 3400 60  0001 C CNN "Price (1500)"
+F 5 "ERJ-6ENF1002V" H 4150 3400 60  0001 C CNN "Manufacturer Part Number"
+F 6 "RES SMD 10K OHM 1% 1/8W 0805" H 4100 3700 60  0001 C CNN "Misc"
+F 7 "0.10" H 4850 3500 60  0001 C CNN "Price"
+F 8 "P10.0KCCT-ND" H 4150 3500 60  0001 C CNN "Distributor Part Number"
+	1    4150 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 7050 4600 7050
+Wire Wire Line
+	5700 7050 5800 7050
+$Comp
+L CONN_DISPLAY U4
+U 1 1 55D96A25
+P 5150 4550
+F 0 "U4" H 5150 1850 60  0000 C CNN
+F 1 "CONN_DISPLAY" H 5150 7150 60  0000 C CNN
+F 2 "" H 5150 4450 60  0000 C CNN
+F 3 "http://www.digikey.com/product-detail/en/62684-502100ALF/609-1202-1-ND/1003059" V 5700 4700 60  0001 C CNN
+F 4 "0.74712" V 5900 5350 60  0001 C CNN "Price (1500)"
+F 5 "1.35" V 5800 5300 60  0001 C CNN "Price"
+F 6 "609-1202-1-ND" V 5800 4550 60  0001 C CNN "Distributor Part Number"
+F 7 "62684-502100ALF" V 5900 4550 60  0001 C CNN "Manufacturer Part Number"
+	1    5150 4550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

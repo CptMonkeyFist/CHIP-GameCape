@@ -1,0 +1,2326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/nthompson/Videos/Hardware/Marmoset-CHIP/Marmoset/Marmoset.sch</source>
+    <date>7/31/2015 12:01:48 PM</date>
+    <tool>Eeschema (2015-07-30 BZR 6023, Git cb629e0)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>21 feb 2015</date>
+        <source>Marmoset.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Marmoset_Display/" tstamps="/54B7016F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>21 feb 2015</date>
+        <source>Marmoset_Display.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Marmoset_Audio_SD/" tstamps="/54B07D7C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>21 feb 2015</date>
+        <source>Marmoset_Audio_SD.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>21 feb 2015</date>
+        <source>Marmoset_RTC-Input.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>CONN_CHIP1</value>
+      <datasheet>http://www.digikey.com/product-detail/en/M20-9762042/952-1895-ND/3727862</datasheet>
+      <fields>
+        <field name="Price (1500)">0.7216</field>
+        <field name="Price">1.31</field>
+        <field name="Misc">2x20 0.1"</field>
+        <field name="Distributor Part Number">952-1895-ND</field>
+        <field name="Manufacturer Part Number">M20-9762042</field>
+      </fields>
+      <libsource lib="Marmoset" part="CONN_CHIP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55BCF1A1</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>CONN_CHIP2</value>
+      <datasheet>http://www.digikey.com/product-detail/en/M20-9762042/952-1895-ND/3727862</datasheet>
+      <fields>
+        <field name="Price (1500)">0.7216</field>
+        <field name="Price">1.31</field>
+        <field name="Misc">2x20 0.1"</field>
+        <field name="Distributor Part Number">952-1895-ND</field>
+        <field name="Manufacturer Part Number">M20-9762042</field>
+      </fields>
+      <libsource lib="Marmoset" part="CONN_CHIP2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C11226</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>CONN_DISPLAY</value>
+      <datasheet>http://www.digikey.com/product-detail/en/62684-502100ALF/609-1202-1-ND/1003059</datasheet>
+      <fields>
+        <field name="Price (1500)">0.74712</field>
+        <field name="Price">1.35</field>
+        <field name="Distributor Part Number">609-1202-1-ND</field>
+        <field name="Manufacturer Part Number">62684-502100ALF</field>
+      </fields>
+      <libsource lib="Marmoset" part="CONN_DISPLAY"/>
+      <sheetpath names="/Marmoset_Display/" tstamps="/54B7016F/"/>
+      <tstamp>54CFFF3B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>DTC114YKA</value>
+      <datasheet>http://www.digikey.com/product-detail/en/DTC114YKAT146/DTC114YKAT146CT-ND/650713</datasheet>
+      <fields>
+        <field name="Price (1500)">0.04017</field>
+        <field name="Price">0.20</field>
+        <field name="Manufacturer Part Number">DTC114YKAT146</field>
+        <field name="Distributor Part Number">DTC114YKAT146CT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="DTC114YKA"/>
+      <sheetpath names="/Marmoset_Display/" tstamps="/54B7016F/"/>
+      <tstamp>54D2C560</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DTC114YKA</value>
+      <datasheet>http://www.digikey.com/product-detail/en/DTC114YKAT146/DTC114YKAT146CT-ND/650713</datasheet>
+      <fields>
+        <field name="Price (1500)">0.04017</field>
+        <field name="Price">0.20</field>
+        <field name="Manufacturer Part Number">DTC114YKAT146</field>
+        <field name="Distributor Part Number">DTC114YKAT146CT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="DTC114YKA"/>
+      <sheetpath names="/Marmoset_Display/" tstamps="/54B7016F/"/>
+      <tstamp>54D82000</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.99_o</value>
+      <footprint>0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/RC2012F4R99CS/1276-5173-1-ND/3968145</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00408</field>
+        <field name="Manufacturer Part Number">RC2012F4R99CS</field>
+        <field name="Misc">RES SMD 4.99 OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-5173-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="4.99_o"/>
+      <sheetpath names="/Marmoset_Display/" tstamps="/54B7016F/"/>
+      <tstamp>55BE2139</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.99_o</value>
+      <footprint>0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/RC2012F4R99CS/1276-5173-1-ND/3968145</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00408</field>
+        <field name="Manufacturer Part Number">RC2012F4R99CS</field>
+        <field name="Misc">RES SMD 4.99 OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-5173-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="4.99_o"/>
+      <sheetpath names="/Marmoset_Display/" tstamps="/54B7016F/"/>
+      <tstamp>55BE224E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.99_o</value>
+      <footprint>0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/RC2012F4R99CS/1276-5173-1-ND/3968145</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00408</field>
+        <field name="Manufacturer Part Number">RC2012F4R99CS</field>
+        <field name="Misc">RES SMD 4.99 OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-5173-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="4.99_o"/>
+      <sheetpath names="/Marmoset_Display/" tstamps="/54B7016F/"/>
+      <tstamp>55BE2266</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.99_o</value>
+      <footprint>0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/RC2012F4R99CS/1276-5173-1-ND/3968145</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00408</field>
+        <field name="Manufacturer Part Number">RC2012F4R99CS</field>
+        <field name="Misc">RES SMD 4.99 OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-5173-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="4.99_o"/>
+      <sheetpath names="/Marmoset_Display/" tstamps="/54B7016F/"/>
+      <tstamp>55BE2283</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/CL21B104KBCNNNC/1276-1003-1-ND/3889089</datasheet>
+      <fields>
+        <field name="Price (1500)">0.0114</field>
+        <field name="Manufacturer Part Number">CL21B104KBCNNNC</field>
+        <field name="Misc">CAP CER 0.1UF 50V 10% X7R 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-1003-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="0.1uF"/>
+      <sheetpath names="/Marmoset_Display/" tstamps="/54B7016F/"/>
+      <tstamp>55BE2417</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_Display/" tstamps="/54B7016F/"/>
+      <tstamp>55BE24A1</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TPA6203A1DGNR</value>
+      <datasheet>http://www.digikey.com/product-detail/en/TPA6203A1DGNR/296-19604-1-ND/1014221</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3906</field>
+        <field name="Manufacturer Part Number">TPA6203A1DGNR</field>
+        <field name="Price">0.91</field>
+        <field name="Distributor Part Number">296-19604-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="TPA6203A1DGNR"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>54CE9353</tstamp>
+    </comp>
+    <comp ref="SP1">
+      <value>SPEAK</value>
+      <datasheet>http://www.digikey.com/product-detail/en/2403%20260%2000001/423-1171-ND/3854649</datasheet>
+      <fields>
+        <field name="Price (1500)">0.88518</field>
+        <field name="Manufacturer Part Number">2403 260 00001</field>
+        <field name="Price">1.89</field>
+        <field name="Distributor Part Number">423-1171-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="SPEAK"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>54D45053</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB05B1</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB0670</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB08BB</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB0CEA</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>2.2uF</value>
+      <datasheet>http://www.digikey.com/product-detail/en/CL21B224KBFSFNE/1276-2948-1-ND/3891034</datasheet>
+      <fields>
+        <field name="Price (1500)">0.02283</field>
+        <field name="Manufacturer Part Number">CL21B224KBFSFNE</field>
+        <field name="Misc">CAP CER 0.22UF 50V 10% X7R 0805</field>
+        <field name="Price">0.12</field>
+        <field name="Distributor Part Number">1276-2948-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="2.2uF"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB180E</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2.2uF</value>
+      <datasheet>http://www.digikey.com/product-detail/en/CL21B224KBFSFNE/1276-2948-1-ND/3891034</datasheet>
+      <fields>
+        <field name="Price (1500)">0.02283</field>
+        <field name="Manufacturer Part Number">CL21B224KBFSFNE</field>
+        <field name="Misc">CAP CER 0.22UF 50V 10% X7R 0805</field>
+        <field name="Price">0.12</field>
+        <field name="Distributor Part Number">1276-2948-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="2.2uF"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB19D4</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>2.2uF</value>
+      <datasheet>http://www.digikey.com/product-detail/en/CL21B224KBFSFNE/1276-2948-1-ND/3891034</datasheet>
+      <fields>
+        <field name="Price (1500)">0.02283</field>
+        <field name="Manufacturer Part Number">CL21B224KBFSFNE</field>
+        <field name="Misc">CAP CER 0.22UF 50V 10% X7R 0805</field>
+        <field name="Price">0.12</field>
+        <field name="Distributor Part Number">1276-2948-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="2.2uF"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB1A1F</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/CL21B105KPFNNNE/1276-1275-1-ND/3889361</datasheet>
+      <fields>
+        <field name="Price (1500)">0.01821</field>
+        <field name="Manufacturer Part Number">CL21B105KPFNNNE</field>
+        <field name="Misc">CAP CER 1UF 10V 10% X7R 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-1275-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="1uF"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB1D67</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>22uF</value>
+      <footprint>1206</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/CL31A226KPHNNNE/1276-1287-1-ND/3889373</datasheet>
+      <fields>
+        <field name="Price (1500)">0.10511</field>
+        <field name="Manufacturer Part Number">CL31A226KPHNNNE</field>
+        <field name="Misc">CAP CER 22UF 10V 10% X5R 1206</field>
+        <field name="Price">0.37</field>
+        <field name="Distributor Part Number">1276-1287-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="22uF"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BACBA3</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1003V/P100KCCT-ND/119551</datasheet>
+      <fields>
+        <field name="Price (1500)">0.008</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1003V</field>
+        <field name="Misc">RES SMD 100K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P100KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="100ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BACE03</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>470nH</value>
+      <datasheet>http://www.digikey.com/product-detail/en/NR3015T2R2M/587-1648-1-ND/1008263</datasheet>
+      <fields>
+        <field name="Price (1500)">0.22287</field>
+        <field name="Misc">470NH 250MA 1.76 OHM</field>
+        <field name="Manufacturer Part Number">LQW2BASR47J00L</field>
+        <field name="Price">0.48</field>
+        <field name="Distributor Part Number">490-5674-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="470nH"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BAD410</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>22uF</value>
+      <footprint>1206</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/CL31A226KPHNNNE/1276-1287-1-ND/3889373</datasheet>
+      <fields>
+        <field name="Price (1500)">0.10511</field>
+        <field name="Manufacturer Part Number">CL31A226KPHNNNE</field>
+        <field name="Misc">CAP CER 22UF 10V 10% X5R 1206</field>
+        <field name="Price">0.37</field>
+        <field name="Distributor Part Number">1276-1287-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="22uF"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BAFCAD</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1003V/P100KCCT-ND/119551</datasheet>
+      <fields>
+        <field name="Price (1500)">0.008</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1003V</field>
+        <field name="Misc">RES SMD 100K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P100KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="100ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB53B4</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1003V/P100KCCT-ND/119551</datasheet>
+      <fields>
+        <field name="Price (1500)">0.008</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1003V</field>
+        <field name="Misc">RES SMD 100K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P100KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="100ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB54CA</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1003V/P100KCCT-ND/119551</datasheet>
+      <fields>
+        <field name="Price (1500)">0.008</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1003V</field>
+        <field name="Misc">RES SMD 100K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P100KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="100ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB54D5</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1003V/P100KCCT-ND/119551</datasheet>
+      <fields>
+        <field name="Price (1500)">0.008</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1003V</field>
+        <field name="Misc">RES SMD 100K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P100KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="100ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB550D</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>CONN_MICROSD</value>
+      <datasheet>http://www.digikey.com/product-detail/en/5027740891/WM24066CT-ND/1952536</datasheet>
+      <fields>
+        <field name="Price (1500)">1.91922</field>
+        <field name="Manufacturer Part Number">5027740891</field>
+        <field name="Price">3.64</field>
+        <field name="Distributor Part Number">WM24066CT-ND </field>
+        <field name="Misc">WM24066TR-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="CONN_MICROSD"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB8447</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1003V/P100KCCT-ND/119551</datasheet>
+      <fields>
+        <field name="Price (1500)">0.008</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1003V</field>
+        <field name="Misc">RES SMD 100K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P100KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="100ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB8D3E</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1003V/P100KCCT-ND/119551</datasheet>
+      <fields>
+        <field name="Price (1500)">0.008</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1003V</field>
+        <field name="Misc">RES SMD 100K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P100KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="100ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BB8D49</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TPA6203A1DGNR</value>
+      <datasheet>http://www.digikey.com/product-detail/en/TPA6203A1DGNR/296-19604-1-ND/1014221</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3906</field>
+        <field name="Manufacturer Part Number">TPA6203A1DGNR</field>
+        <field name="Price">0.91</field>
+        <field name="Distributor Part Number">296-19604-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="TPA6203A1DGNR"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BC1719</tstamp>
+    </comp>
+    <comp ref="SP2">
+      <value>SPEAK</value>
+      <datasheet>http://www.digikey.com/product-detail/en/2403%20260%2000001/423-1171-ND/3854649</datasheet>
+      <fields>
+        <field name="Price (1500)">0.88518</field>
+        <field name="Manufacturer Part Number">2403 260 00001</field>
+        <field name="Price">1.89</field>
+        <field name="Distributor Part Number">423-1171-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="SPEAK"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BC1725</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BC1732</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BC173D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BC1748</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BC1753</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <datasheet>http://www.digikey.com/product-detail/en/CL21B224KBFSFNE/1276-2948-1-ND/3891034</datasheet>
+      <fields>
+        <field name="Price (1500)">0.02283</field>
+        <field name="Manufacturer Part Number">CL21B224KBFSFNE</field>
+        <field name="Misc">CAP CER 0.22UF 50V 10% X7R 0805</field>
+        <field name="Price">0.12</field>
+        <field name="Distributor Part Number">1276-2948-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="2.2uF"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BC175E</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF</value>
+      <datasheet>http://www.digikey.com/product-detail/en/CL21B224KBFSFNE/1276-2948-1-ND/3891034</datasheet>
+      <fields>
+        <field name="Price (1500)">0.02283</field>
+        <field name="Manufacturer Part Number">CL21B224KBFSFNE</field>
+        <field name="Misc">CAP CER 0.22UF 50V 10% X7R 0805</field>
+        <field name="Price">0.12</field>
+        <field name="Distributor Part Number">1276-2948-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="2.2uF"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BC1769</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>2.2uF</value>
+      <datasheet>http://www.digikey.com/product-detail/en/CL21B224KBFSFNE/1276-2948-1-ND/3891034</datasheet>
+      <fields>
+        <field name="Price (1500)">0.02283</field>
+        <field name="Manufacturer Part Number">CL21B224KBFSFNE</field>
+        <field name="Misc">CAP CER 0.22UF 50V 10% X7R 0805</field>
+        <field name="Price">0.12</field>
+        <field name="Distributor Part Number">1276-2948-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="2.2uF"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BC1774</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/CL21B105KPFNNNE/1276-1275-1-ND/3889361</datasheet>
+      <fields>
+        <field name="Price (1500)">0.01821</field>
+        <field name="Manufacturer Part Number">CL21B105KPFNNNE</field>
+        <field name="Misc">CAP CER 1UF 10V 10% X7R 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-1275-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="1uF"/>
+      <sheetpath names="/Marmoset_Audio_SD/" tstamps="/54B07D7C/"/>
+      <tstamp>55BC177F</tstamp>
+    </comp>
+    <comp ref="BTN_UP1">
+      <value>SW_TACT</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18AAE</tstamp>
+    </comp>
+    <comp ref="BTN_DOWN1">
+      <value>SW_TACT</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18AE1</tstamp>
+    </comp>
+    <comp ref="BTN_LEFT1">
+      <value>SW_TACT</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18AFD</tstamp>
+    </comp>
+    <comp ref="BTN_RIGHT1">
+      <value>SW_TACT</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18B07</tstamp>
+    </comp>
+    <comp ref="BTN_A1">
+      <value>SW_TACT</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18B11</tstamp>
+    </comp>
+    <comp ref="BTN_B1">
+      <value>SW_TACT</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18B1B</tstamp>
+    </comp>
+    <comp ref="BTN_X1">
+      <value>SW_TACT</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18B25</tstamp>
+    </comp>
+    <comp ref="BTN_Y1">
+      <value>SW_TACT</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18B2F</tstamp>
+    </comp>
+    <comp ref="BTN_START1">
+      <value>SW_TACT</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18B39</tstamp>
+    </comp>
+    <comp ref="BTN_SEL1">
+      <value>SW_TACT</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18B43</tstamp>
+    </comp>
+    <comp ref="BTN_L1">
+      <value>SW_TACT_RA</value>
+      <datasheet>http://www.digikey.com/product-detail/en/B3F-3120/SW407-ND/38364</datasheet>
+      <fields>
+        <field name="Price (1500)">0.28995</field>
+        <field name="Price">0.54</field>
+        <field name="Distributor Part Number">SW407-ND</field>
+        <field name="Manufacturer Part Number">B3F-3120</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT_RA"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18B4B</tstamp>
+    </comp>
+    <comp ref="BTN_R1">
+      <value>SW_TACT_RA</value>
+      <datasheet>http://www.digikey.com/product-detail/en/B3F-3120/SW407-ND/38364</datasheet>
+      <fields>
+        <field name="Price (1500)">0.28995</field>
+        <field name="Price">0.54</field>
+        <field name="Distributor Part Number">SW407-ND</field>
+        <field name="Manufacturer Part Number">B3F-3120</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT_RA"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D18B87</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>PCF8563T/5</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PCF8563T%2F5,518/568-6650-1-ND/2617089</datasheet>
+      <fields>
+        <field name="Price">1.21</field>
+        <field name="Price (1500)">0.5208</field>
+        <field name="Distributor Part Number">568-6650-1-ND</field>
+        <field name="Manufacturer Part Number">PCF8563T/5,518</field>
+        <field name="Misc">RTC</field>
+      </fields>
+      <libsource lib="Marmoset" part="PCF8563T/5"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D5471F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAT54C</value>
+      <footprint>SOT-23</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/BAT54C-7-F/BAT54C-FDICT-ND/717821</datasheet>
+      <fields>
+        <field name="Price (1500)">0.04017</field>
+        <field name="Price">0.20</field>
+        <field name="Manufacturer Part Number">BAT54C-7-F</field>
+        <field name="Distributor Part Number">BAT54C-FDICT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="BAT54C"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D54764</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>BATT_2032</value>
+      <datasheet>http://www.digikey.com/product-detail/en/BU2032SM-BT-GTR/BU2032SM-BT-GTR-ND/2439521</datasheet>
+      <fields>
+        <field name="Price (1500)">0.35</field>
+        <field name="Price">0.60</field>
+        <field name="Distributor Part Number">BU2032SM-BT-GCT-ND</field>
+        <field name="Manufacturer Part Number">BU2032SM-BT-GTR</field>
+        <field name="Misc">BU2032SM-BT-GTR-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="BATT_2032"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D55D62</tstamp>
+    </comp>
+    <comp ref="BTN_VOL_DOWN1">
+      <value>SW_TACT_RA</value>
+      <datasheet>http://www.digikey.com/product-detail/en/B3F-3120/SW407-ND/38364</datasheet>
+      <fields>
+        <field name="Price (1500)">0.28995</field>
+        <field name="Price">0.54</field>
+        <field name="Distributor Part Number">SW407-ND</field>
+        <field name="Manufacturer Part Number">B3F-3120</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT_RA"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D5520B</tstamp>
+    </comp>
+    <comp ref="BTN_VOL_UP1">
+      <value>SW_TACT_RA</value>
+      <datasheet>http://www.digikey.com/product-detail/en/B3F-3120/SW407-ND/38364</datasheet>
+      <fields>
+        <field name="Price (1500)">0.28995</field>
+        <field name="Price">0.54</field>
+        <field name="Distributor Part Number">SW407-ND</field>
+        <field name="Manufacturer Part Number">B3F-3120</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT_RA"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>54D5521D</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9D93B</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DA14</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DA5F</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DA6A</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DADF</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DAEA</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DAF5</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DB00</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DBAD</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DBB8</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DBC3</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DBCE</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DBD9</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10ko</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</datasheet>
+      <fields>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55B9DBE4</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/CL21B104KBCNNNC/1276-1003-1-ND/3889089</datasheet>
+      <fields>
+        <field name="Price (1500)">0.0114</field>
+        <field name="Manufacturer Part Number">CL21B104KBCNNNC</field>
+        <field name="Misc">CAP CER 0.1UF 50V 10% X7R 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-1003-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="0.1uF"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55BA0DD2</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10pF</value>
+      <footprint>0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/CL21C100JBANNNC/1276-1109-1-ND/3889195</datasheet>
+      <fields>
+        <field name="Price (1500)">0.012</field>
+        <field name="Manufacturer Part Number">CL21C100JBANNNC</field>
+        <field name="Misc">CAP CER 10PF 50V 5% NP0 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-1109-1-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="10pF"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55BA11CE</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>2.2ko</value>
+      <footprint>0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF2201V/P2.20KCCT-ND/1746832</datasheet>
+      <fields>
+        <field name="Price (1500)">0.008</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2201V</field>
+        <field name="Misc">RES SMD 2.2K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P2.20KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="2.2ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55BA149F</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>2.2ko</value>
+      <footprint>0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/ERJ-6ENF2201V/P2.20KCCT-ND/1746832</datasheet>
+      <fields>
+        <field name="Price (1500)">0.008</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2201V</field>
+        <field name="Misc">RES SMD 2.2K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P2.20KCCT-ND</field>
+      </fields>
+      <libsource lib="Marmoset" part="2.2ko"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55BA1521</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>32768Hz/6pF</value>
+      <datasheet>http://www.digikey.com/product-detail/en/ABS25-32.768KHZ-6-T/535-10240-1-ND/2218053</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3192</field>
+        <field name="Price">0.60</field>
+        <field name="Distributor Part Number">535-10240-1-ND</field>
+        <field name="Manufacturer Part Number">ABS25-32.768KHZ-6-T</field>
+      </fields>
+      <libsource lib="Marmoset" part="32768Hz/6pF"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55BA17A3</tstamp>
+    </comp>
+    <comp ref="BTN_POWER1">
+      <value>SW_TACT</value>
+      <datasheet>http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</datasheet>
+      <fields>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <libsource lib="Marmoset" part="SW_TACT"/>
+      <sheetpath names="/Marmoset_RTC-Input/" tstamps="/54B2C0BC/"/>
+      <tstamp>55BB1895</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Marmoset" part="BAT54C">
+      <description>Diode simple</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54C</field>
+        <field name="Footprint">SOT-23</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/BAT54C-7-F/BAT54C-FDICT-ND/717821</field>
+        <field name="Price (1500)">0.04017</field>
+        <field name="Price">0.20</field>
+        <field name="Manufacturer Part Number">BAT54C-7-F</field>
+        <field name="Distributor Part Number">BAT54C-FDICT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="10ko">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10ko</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/ERJ-6ENF1002V/P10.0KCCT-ND/119248</field>
+        <field name="Price (1500)">0.00675</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1002V</field>
+        <field name="Misc">RES SMD 10K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P10.0KCCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="2.2uF">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2.2uF</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/CL21B224KBFSFNE/1276-2948-1-ND/3891034</field>
+        <field name="Price (1500)">0.02283</field>
+        <field name="Manufacturer Part Number">CL21B224KBFSFNE</field>
+        <field name="Misc">CAP CER 0.22UF 50V 10% X7R 0805</field>
+        <field name="Price">0.12</field>
+        <field name="Distributor Part Number">1276-2948-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="TPA6203A1DGNR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPA6203A1DGNR</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/TPA6203A1DGNR/296-19604-1-ND/1014221</field>
+        <field name="Price (1500)">0.3906</field>
+        <field name="Manufacturer Part Number">TPA6203A1DGNR</field>
+        <field name="Price">0.91</field>
+        <field name="Distributor Part Number">296-19604-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SHUTDOWN" type="input"/>
+        <pin num="2" name="BYPASS" type="input"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="IN-" type="input"/>
+        <pin num="5" name="VO+" type="input"/>
+        <pin num="6" name="VDD" type="input"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="VO-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="32768Hz/6pF">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">32768Hz/6pF</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/ABS25-32.768KHZ-6-T/535-10240-1-ND/2218053</field>
+        <field name="Price (1500)">0.3192</field>
+        <field name="Price">0.60</field>
+        <field name="Distributor Part Number">535-10240-1-ND</field>
+        <field name="Manufacturer Part Number">ABS25-32.768KHZ-6-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="CONN_DISPLAY">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONN_DISPLAY</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/62684-502100ALF/609-1202-1-ND/1003059</field>
+        <field name="Price (1500)">0.74712</field>
+        <field name="Price">1.35</field>
+        <field name="Distributor Part Number">609-1202-1-ND</field>
+        <field name="Manufacturer Part Number">62684-502100ALF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LEDK" type="input"/>
+        <pin num="2" name="LEDA1" type="input"/>
+        <pin num="3" name="LEDA2" type="input"/>
+        <pin num="4" name="LEDA3" type="input"/>
+        <pin num="5" name="LEDA4" type="input"/>
+        <pin num="6" name="IM0" type="input"/>
+        <pin num="7" name="IM1" type="input"/>
+        <pin num="8" name="IM2" type="input"/>
+        <pin num="9" name="IM3" type="input"/>
+        <pin num="10" name="RESET" type="input"/>
+        <pin num="11" name="VSYNC" type="input"/>
+        <pin num="12" name="HSYNC" type="input"/>
+        <pin num="13" name="DOTCLK" type="input"/>
+        <pin num="14" name="DE" type="input"/>
+        <pin num="15" name="DB17" type="input"/>
+        <pin num="16" name="DB16" type="input"/>
+        <pin num="17" name="DB15" type="input"/>
+        <pin num="18" name="DB14" type="input"/>
+        <pin num="19" name="DB13" type="input"/>
+        <pin num="20" name="DB12" type="input"/>
+        <pin num="21" name="DB11" type="input"/>
+        <pin num="22" name="DB10" type="input"/>
+        <pin num="23" name="DB9" type="input"/>
+        <pin num="24" name="DB8" type="input"/>
+        <pin num="25" name="DB7" type="input"/>
+        <pin num="26" name="DB6" type="input"/>
+        <pin num="27" name="DB5" type="input"/>
+        <pin num="28" name="DB4" type="input"/>
+        <pin num="29" name="DB3" type="input"/>
+        <pin num="30" name="DB2" type="input"/>
+        <pin num="31" name="DB1" type="input"/>
+        <pin num="32" name="DB0" type="input"/>
+        <pin num="33" name="SDO" type="input"/>
+        <pin num="34" name="SDI" type="input"/>
+        <pin num="35" name="RD" type="input"/>
+        <pin num="36" name="WRX(D/CX)" type="input"/>
+        <pin num="37" name="D/CX(SCL)" type="input"/>
+        <pin num="38" name="CSX" type="input"/>
+        <pin num="39" name="TE" type="input"/>
+        <pin num="40" name="VDDI" type="input"/>
+        <pin num="41" name="VDDI" type="input"/>
+        <pin num="42" name="VCI" type="input"/>
+        <pin num="43" name="GND" type="input"/>
+        <pin num="44" name="X+" type="input"/>
+        <pin num="45" name="Y+" type="input"/>
+        <pin num="46" name="X-" type="input"/>
+        <pin num="47" name="Y-" type="input"/>
+        <pin num="48" name="GND" type="input"/>
+        <pin num="49" name="GND" type="input"/>
+        <pin num="50" name="GND" type="input"/>
+        <pin num="51" name="CGND" type="input"/>
+        <pin num="52" name="CGND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="CONN_CHIP1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONN_CHIP1</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/M20-9762042/952-1895-ND/3727862</field>
+        <field name="Price (1500)">0.7216</field>
+        <field name="Price">1.31</field>
+        <field name="Misc">2x20 0.1"</field>
+        <field name="Distributor Part Number">952-1895-ND</field>
+        <field name="Manufacturer Part Number">M20-9762042</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="ACIN-5V" type="input"/>
+        <pin num="3" name="-5V0" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="+3V3" type="input"/>
+        <pin num="6" name="TS" type="input"/>
+        <pin num="7" name="-1v8" type="input"/>
+        <pin num="8" name="VBAT-EXT" type="input"/>
+        <pin num="9" name="TWI1-SDA" type="input"/>
+        <pin num="10" name="PWRON" type="input"/>
+        <pin num="11" name="TWI1-SCK" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="X1" type="input"/>
+        <pin num="14" name="X2" type="input"/>
+        <pin num="15" name="Y1" type="input"/>
+        <pin num="16" name="Y2" type="input"/>
+        <pin num="17" name="LCD-D2" type="input"/>
+        <pin num="18" name="PWM0" type="input"/>
+        <pin num="19" name="LCD-D4" type="input"/>
+        <pin num="20" name="LCD-D3" type="input"/>
+        <pin num="21" name="LCD-D6" type="input"/>
+        <pin num="22" name="LCD-D5" type="input"/>
+        <pin num="23" name="LCD-D10" type="input"/>
+        <pin num="24" name="LCD-D7" type="input"/>
+        <pin num="25" name="LCD-D12" type="input"/>
+        <pin num="26" name="LCD-D11" type="input"/>
+        <pin num="27" name="LCD-D14" type="input"/>
+        <pin num="28" name="LCD-D13" type="input"/>
+        <pin num="29" name="LCD-D18" type="input"/>
+        <pin num="30" name="LCD-D15" type="input"/>
+        <pin num="31" name="LCD-D20" type="input"/>
+        <pin num="32" name="LCD-D19" type="input"/>
+        <pin num="33" name="LCD-D22" type="input"/>
+        <pin num="34" name="LCD-D21" type="input"/>
+        <pin num="35" name="LCD-CLK" type="input"/>
+        <pin num="36" name="LCD-D23" type="input"/>
+        <pin num="37" name="LCD-VSYNC" type="input"/>
+        <pin num="38" name="LCD-HSYNC" type="input"/>
+        <pin num="39" name="GND" type="input"/>
+        <pin num="40" name="LCD-DE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="2.2ko">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">2.2ko</field>
+        <field name="Footprint">0805</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/ERJ-6ENF2201V/P2.20KCCT-ND/1746832</field>
+        <field name="Price (1500)">0.008</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF2201V</field>
+        <field name="Misc">RES SMD 2.2K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P2.20KCCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="CONN_MICROSD">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONN_MICROSD</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/5027740891/WM24066CT-ND/1952536</field>
+        <field name="Price (1500)">1.91922</field>
+        <field name="Manufacturer Part Number">5027740891</field>
+        <field name="Price">3.64</field>
+        <field name="Distributor Part Number">WM24066CT-ND </field>
+        <field name="Misc">WM24066TR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D2" type="input"/>
+        <pin num="2" name="D3/CD" type="input"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VCC" type="input"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="D0" type="input"/>
+        <pin num="8" name="D1" type="input"/>
+        <pin num="9" name="SW" type="input"/>
+        <pin num="10" name="SW_GND" type="input"/>
+        <pin num="11" name="G1" type="input"/>
+        <pin num="12" name="G2" type="input"/>
+        <pin num="13" name="G3" type="input"/>
+        <pin num="14" name="G4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="0.1uF">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1uF</field>
+        <field name="Footprint">0805</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/CL21B104KBCNNNC/1276-1003-1-ND/3889089</field>
+        <field name="Price (1500)">0.0114</field>
+        <field name="Manufacturer Part Number">CL21B104KBCNNNC</field>
+        <field name="Misc">CAP CER 0.1UF 50V 10% X7R 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-1003-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="4.99_o">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4.99_o</field>
+        <field name="Footprint">0805</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/RC2012F4R99CS/1276-5173-1-ND/3968145</field>
+        <field name="Price (1500)">0.00408</field>
+        <field name="Manufacturer Part Number">RC2012F4R99CS</field>
+        <field name="Misc">RES SMD 4.99 OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-5173-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="470nH">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">470nH</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/NR3015T2R2M/587-1648-1-ND/1008263</field>
+        <field name="Price (1500)">0.22287</field>
+        <field name="Misc">470NH 250MA 1.76 OHM</field>
+        <field name="Manufacturer Part Number">LQW2BASR47J00L</field>
+        <field name="Price">0.48</field>
+        <field name="Distributor Part Number">490-5674-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="100ko">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100ko</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/ERJ-6ENF1003V/P100KCCT-ND/119551</field>
+        <field name="Price (1500)">0.008</field>
+        <field name="Manufacturer Part Number">ERJ-6ENF1003V</field>
+        <field name="Misc">RES SMD 100K OHM 1% 1/8W 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">P100KCCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="CONN_CHIP2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONN_CHIP2</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/M20-9762042/952-1895-ND/3727862</field>
+        <field name="Price (1500)">0.7216</field>
+        <field name="Price">1.31</field>
+        <field name="Misc">2x20 0.1"</field>
+        <field name="Distributor Part Number">952-1895-ND</field>
+        <field name="Manufacturer Part Number">M20-9762042</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="-5V0" type="input"/>
+        <pin num="3" name="UART1-TX" type="input"/>
+        <pin num="4" name="HPL" type="input"/>
+        <pin num="5" name="UART1-RX" type="input"/>
+        <pin num="6" name="HPCOM" type="input"/>
+        <pin num="7" name="UBOOT" type="input"/>
+        <pin num="8" name="HPR" type="input"/>
+        <pin num="9" name="LRADC" type="input"/>
+        <pin num="10" name="MICM" type="input"/>
+        <pin num="11" name="GND" type="input"/>
+        <pin num="12" name="MICIN1" type="input"/>
+        <pin num="13" name="XIO-P0" type="input"/>
+        <pin num="14" name="XIO-P1" type="input"/>
+        <pin num="15" name="XIO-P2" type="input"/>
+        <pin num="16" name="XIO-P3" type="input"/>
+        <pin num="17" name="XIO-P4" type="input"/>
+        <pin num="18" name="XIO-P5" type="input"/>
+        <pin num="19" name="XIO-P6" type="input"/>
+        <pin num="20" name="XIO-P7" type="input"/>
+        <pin num="21" name="GND" type="input"/>
+        <pin num="22" name="GND" type="input"/>
+        <pin num="23" name="AP-EINT1" type="input"/>
+        <pin num="24" name="AP-EINT3" type="input"/>
+        <pin num="25" name="TWI2-SDA" type="input"/>
+        <pin num="26" name="TWI2-SCK" type="input"/>
+        <pin num="27" name="CSIPCK" type="input"/>
+        <pin num="28" name="CSICK" type="input"/>
+        <pin num="29" name="CSIHSYNC" type="input"/>
+        <pin num="30" name="CSIVSYNC" type="input"/>
+        <pin num="31" name="CSID0/SD_D0" type="input"/>
+        <pin num="32" name="CSID1/SD_D1" type="input"/>
+        <pin num="33" name="CSID2/SD_D2" type="input"/>
+        <pin num="34" name="CSID3/SD_D3" type="input"/>
+        <pin num="35" name="CSID4/SD_CMD" type="input"/>
+        <pin num="36" name="CSID5/SD_CLK" type="input"/>
+        <pin num="37" name="CSID6" type="input"/>
+        <pin num="38" name="CSID7" type="input"/>
+        <pin num="39" name="GND" type="input"/>
+        <pin num="40" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="DTC114YKA">
+      <docs>transistors/bipolar/*.*</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DTC114YKA</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/DTC114YKAT146/DTC114YKAT146CT-ND/650713</field>
+        <field name="Price (1500)">0.04017</field>
+        <field name="Price">0.20</field>
+        <field name="Manufacturer Part Number">DTC114YKAT146</field>
+        <field name="Distributor Part Number">DTC114YKAT146CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="1uF">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint">0805</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/CL21B105KPFNNNE/1276-1275-1-ND/3889361</field>
+        <field name="Price (1500)">0.01821</field>
+        <field name="Manufacturer Part Number">CL21B105KPFNNNE</field>
+        <field name="Misc">CAP CER 1UF 10V 10% X7R 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-1275-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="10pF">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10pF</field>
+        <field name="Footprint">0805</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/CL21C100JBANNNC/1276-1109-1-ND/3889195</field>
+        <field name="Price (1500)">0.012</field>
+        <field name="Manufacturer Part Number">CL21C100JBANNNC</field>
+        <field name="Misc">CAP CER 10PF 50V 5% NP0 0805</field>
+        <field name="Price">0.10</field>
+        <field name="Distributor Part Number">1276-1109-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="BATT_2032">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BATT_2032</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/BU2032SM-BT-GTR/BU2032SM-BT-GTR-ND/2439521</field>
+        <field name="Price (1500)">0.35</field>
+        <field name="Price">0.60</field>
+        <field name="Distributor Part Number">BU2032SM-BT-GCT-ND</field>
+        <field name="Manufacturer Part Number">BU2032SM-BT-GTR</field>
+        <field name="Misc">BU2032SM-BT-GTR-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="22uF">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF</field>
+        <field name="Footprint">1206</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/CL31A226KPHNNNE/1276-1287-1-ND/3889373</field>
+        <field name="Price (1500)">0.10511</field>
+        <field name="Manufacturer Part Number">CL31A226KPHNNNE</field>
+        <field name="Misc">CAP CER 22UF 10V 10% X5R 1206</field>
+        <field name="Price">0.37</field>
+        <field name="Distributor Part Number">1276-1287-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="PCF8563T/5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCF8563T/5</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/PCF8563T%2F5,518/568-6650-1-ND/2617089</field>
+        <field name="Price (1500)">0.5208</field>
+        <field name="Price">1.21</field>
+        <field name="Distributor Part Number">568-6650-1-ND</field>
+        <field name="Manufacturer Part Number">PCF8563T/5,518</field>
+        <field name="Misc">RTC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OSCI" type="input"/>
+        <pin num="2" name="OSCO" type="input"/>
+        <pin num="3" name="#INT" type="input"/>
+        <pin num="4" name="VSS" type="input"/>
+        <pin num="5" name="SDA" type="input"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="CLKOUT" type="input"/>
+        <pin num="8" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="SPEAK">
+      <fields>
+        <field name="Reference">SP</field>
+        <field name="Value">SPEAK</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/2403%20260%2000001/423-1171-ND/3854649</field>
+        <field name="Price (1500)">0.88518</field>
+        <field name="Manufacturer Part Number">2403 260 00001</field>
+        <field name="Price">1.89</field>
+        <field name="Distributor Part Number">423-1171-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="SW_TACT">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_TACT</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/PTS525SM10SMTR%20LFS/CKN9104CT-ND/1146923</field>
+        <field name="Price (1500)">0.3498</field>
+        <field name="Price">0.65</field>
+        <field name="Distributor Part Number">CKN9104CT-ND</field>
+        <field name="Manufacturer Part Number">PTS525SM10SMTR LFS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marmoset" part="SW_TACT_RA">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_TACT_RA</field>
+        <field name="Datasheet">http://www.digikey.com/product-detail/en/B3F-3120/SW407-ND/38364</field>
+        <field name="Price (1500)">0.28995</field>
+        <field name="Price">0.54</field>
+        <field name="Distributor Part Number">SW407-ND</field>
+        <field name="Manufacturer Part Number">B3F-3120</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Marmoset">
+      <uri>Marmoset.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Marmoset_Display/TOUCH_BOT">
+      <node ref="U7" pin="47"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="2" name="/Marmoset_Display/TOUCH_R">
+      <node ref="U7" pin="46"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="3" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="6" name="/Marmoset_RTC-Input/BTN_POWER">
+      <node ref="BTN_POWER1" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="7" name="/Marmoset_RTC-Input/PIN10/TWI1-SCK">
+      <node ref="U5" pin="6"/>
+      <node ref="U2" pin="11"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="8" name="/Marmoset_RTC-Input/PIN11/TWI1-SDA">
+      <node ref="U5" pin="5"/>
+      <node ref="U2" pin="9"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="9" name="/Marmoset_RTC-Input/BTN_A">
+      <node ref="BTN_A1" pin="1"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="10" name="/Marmoset_RTC-Input/CLK_INT">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="11" name="/Marmoset_RTC-Input/BTN_VOL-">
+      <node ref="R36" pin="1"/>
+      <node ref="BTN_VOL_DOWN1" pin="1"/>
+    </net>
+    <net code="12" name="/Marmoset_RTC-Input/BTN_VOL+">
+      <node ref="BTN_VOL_UP1" pin="1"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="13" name="/Marmoset_RTC-Input/BTN_SELECT">
+      <node ref="BTN_SEL1" pin="1"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="14" name="/Marmoset_RTC-Input/BTN_START">
+      <node ref="BTN_START1" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="15" name="/Marmoset_RTC-Input/BTN_R">
+      <node ref="R34" pin="1"/>
+      <node ref="BTN_R1" pin="1"/>
+    </net>
+    <net code="16" name="/Marmoset_RTC-Input/BTN_L">
+      <node ref="R33" pin="1"/>
+      <node ref="BTN_L1" pin="1"/>
+    </net>
+    <net code="17" name="/Marmoset_RTC-Input/BTN_Y">
+      <node ref="BTN_Y1" pin="1"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="18" name="/Marmoset_RTC-Input/BTN_X">
+      <node ref="R27" pin="1"/>
+      <node ref="BTN_X1" pin="1"/>
+    </net>
+    <net code="19" name="/Marmoset_RTC-Input/BTN_B">
+      <node ref="BTN_B1" pin="1"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="20" name="/Marmoset_RTC-Input/BTN_RIGHT">
+      <node ref="BTN_RIGHT1" pin="1"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="21" name="/Marmoset_RTC-Input/BTN_LEFT">
+      <node ref="BTN_LEFT1" pin="1"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="22" name="/Marmoset_RTC-Input/BTN_DOWN">
+      <node ref="BTN_DOWN1" pin="1"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="23" name="/Marmoset_RTC-Input/BTN_UP">
+      <node ref="BTN_UP1" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="24" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="25" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="27" name="/Marmoset_Audio_SD/SPK_L">
+      <node ref="U1" pin="4"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad35)">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="46" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="50" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="51" name="/Marmoset_Audio_SD/SPK_OFF">
+      <node ref="U3" pin="1"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="54" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="55" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="56" name="GND">
+      <node ref="U2" pin="4"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U4" pin="11"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U2" pin="39"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R35" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U9" pin="7"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="R33" pin="2"/>
+      <node ref="BTN_POWER1" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="U1" pin="21"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="40"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="U7" pin="43"/>
+      <node ref="U7" pin="9"/>
+      <node ref="U7" pin="50"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U7" pin="48"/>
+      <node ref="U7" pin="49"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U1" pin="39"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="57" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="58" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="59" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="60" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="61" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="62" name="/Marmoset_Display/TOUCH_TOP">
+      <node ref="U2" pin="16"/>
+      <node ref="U7" pin="45"/>
+    </net>
+    <net code="63" name="/Marmoset_Display/TOUCH_L">
+      <node ref="U2" pin="14"/>
+      <node ref="U7" pin="44"/>
+    </net>
+    <net code="64" name="/Marmoset_Display/TFT_CS">
+      <node ref="U2" pin="37"/>
+      <node ref="U7" pin="38"/>
+    </net>
+    <net code="65" name="/Marmoset_Display/TFT_RS">
+      <node ref="U7" pin="37"/>
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="66" name="/Marmoset_Display/TFT_WR">
+      <node ref="U7" pin="36"/>
+      <node ref="U2" pin="35"/>
+    </net>
+    <net code="67" name="/Marmoset_Display/TFT_RD">
+      <node ref="U2" pin="38"/>
+      <node ref="U7" pin="35"/>
+    </net>
+    <net code="68" name="/Marmoset_Audio_SD/SD_DAT1">
+      <node ref="U4" pin="8"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="69" name="/Marmoset_Audio_SD/SD_DAT0">
+      <node ref="R10" pin="1"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="70" name="/Marmoset_Audio_SD/SD_CLK">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="71" name="/Marmoset_Audio_SD/SD_CMD">
+      <node ref="U4" pin="3"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="72" name="/Marmoset_Audio_SD/SD_DAT3">
+      <node ref="R13" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="73" name="/Marmoset_Audio_SD/SD_DAT2">
+      <node ref="R12" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="74" name="+3V3">
+      <node ref="BTN_L1" pin="2"/>
+      <node ref="BTN_SEL1" pin="2"/>
+      <node ref="BTN_DOWN1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="BTN_R1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="BTN_X1" pin="2"/>
+      <node ref="BTN_B1" pin="2"/>
+      <node ref="BTN_A1" pin="2"/>
+      <node ref="BTN_RIGHT1" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="BTN_LEFT1" pin="2"/>
+      <node ref="BTN_UP1" pin="2"/>
+      <node ref="U7" pin="7"/>
+      <node ref="BTN_VOL_UP1" pin="2"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="U7" pin="6"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="BTN_START1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="BTN_Y1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="BTN_VOL_DOWN1" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U9" pin="6"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R11" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="75" name="/Marmoset_Display/TFT_BKL">
+      <node ref="Q2" pin="2"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="76" name="/Marmoset_Display/TFT_R2">
+      <node ref="U7" pin="30"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="77" name="/Marmoset_Display/TFT_B1">
+      <node ref="U7" pin="19"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="78" name="/Marmoset_Display/TFT_B0">
+      <node ref="U2" pin="29"/>
+      <node ref="U7" pin="20"/>
+    </net>
+    <net code="79" name="/Marmoset_Display/TFT_G5">
+      <node ref="U2" pin="30"/>
+      <node ref="U7" pin="21"/>
+    </net>
+    <net code="80" name="/Marmoset_Display/TFT_G4">
+      <node ref="U2" pin="27"/>
+      <node ref="U7" pin="22"/>
+    </net>
+    <net code="81" name="/Marmoset_Display/TFT_G3">
+      <node ref="U2" pin="28"/>
+      <node ref="U7" pin="23"/>
+    </net>
+    <net code="82" name="/Marmoset_Display/TFT_G2">
+      <node ref="U2" pin="25"/>
+      <node ref="U7" pin="24"/>
+    </net>
+    <net code="83" name="/Marmoset_Display/TFT_G1">
+      <node ref="U2" pin="26"/>
+      <node ref="U7" pin="25"/>
+    </net>
+    <net code="84" name="/Marmoset_Display/TFT_G0">
+      <node ref="U7" pin="26"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="85" name="/Marmoset_Display/TFT_R5">
+      <node ref="U7" pin="27"/>
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="86" name="/Marmoset_Display/TFT_R4">
+      <node ref="U2" pin="21"/>
+      <node ref="U7" pin="28"/>
+    </net>
+    <net code="87" name="/Marmoset_Display/TFT_R3">
+      <node ref="U7" pin="29"/>
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="88" name="/Marmoset_Display/TFT_B2">
+      <node ref="U7" pin="18"/>
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="89" name="/Marmoset_Display/TFT_R1">
+      <node ref="U7" pin="31"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="90" name="/Marmoset_Display/TFT_R0">
+      <node ref="U7" pin="32"/>
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="91" name="/Marmoset_Display/TFT_B5">
+      <node ref="U7" pin="15"/>
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="92" name="/Marmoset_Display/TFT_B4">
+      <node ref="U2" pin="33"/>
+      <node ref="U7" pin="16"/>
+    </net>
+    <net code="93" name="/Marmoset_Display/TFT_B3">
+      <node ref="U7" pin="17"/>
+      <node ref="U2" pin="34"/>
+    </net>
+    <net code="94" name="/Marmoset_Audio_SD/SPK_R">
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="95" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2"/>
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="96" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="97" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="SP1" pin="2"/>
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="98" name="Net-(R19-Pad1)">
+      <node ref="SP1" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="99" name="Net-(R17-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="100" name="Net-(R18-Pad1)">
+      <node ref="U9" pin="3"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="101" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="102" name="Net-(C6-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="103" name="Net-(R15-Pad2)">
+      <node ref="U4" pin="9"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="104" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="105" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="106" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="107" name="Net-(R7-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="108" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="109" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="110" name="Net-(R8-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="SP2" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="111" name="Net-(R9-Pad2)">
+      <node ref="U3" pin="8"/>
+      <node ref="SP2" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="112" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="113" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="114" name="Net-(C12-Pad1)">
+      <node ref="U5" pin="8"/>
+      <node ref="D1" pin="3"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="115" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="116" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="117" name="Net-(U7-Pad34)">
+      <node ref="U7" pin="34"/>
+    </net>
+    <net code="118" name="Net-(U7-Pad14)">
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="119" name="Net-(U7-Pad33)">
+      <node ref="U7" pin="33"/>
+    </net>
+    <net code="120" name="Net-(U7-Pad13)">
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="121" name="Net-(Q1-Pad3)">
+      <node ref="U7" pin="40"/>
+      <node ref="U7" pin="41"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="U7" pin="42"/>
+    </net>
+    <net code="122" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="123" name="Net-(U7-Pad39)">
+      <node ref="U7" pin="39"/>
+    </net>
+    <net code="124" name="Net-(U7-Pad12)">
+      <node ref="U7" pin="12"/>
+    </net>
+    <net code="125" name="Net-(U7-Pad11)">
+      <node ref="U7" pin="11"/>
+    </net>
+    <net code="126" name="Net-(R4-Pad1)">
+      <node ref="U7" pin="5"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="127" name="Net-(R3-Pad1)">
+      <node ref="U7" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="128" name="Net-(R2-Pad1)">
+      <node ref="U7" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="129" name="Net-(R1-Pad1)">
+      <node ref="U7" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="130" name="Net-(C1-Pad1)">
+      <node ref="U7" pin="10"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="131" name="/Marmoset_Display/CGND">
+      <node ref="U7" pin="52"/>
+      <node ref="U7" pin="51"/>
+    </net>
+  </nets>
+</export>
