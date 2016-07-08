@@ -1,4 +1,4 @@
-update=6/13/2016 5:17:52 PM
+update=7/8/2016 12:32:04 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -46,16 +46,6 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=Marmoset
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=118
 [eeschema]
 version=1
 LibDir=
@@ -91,3 +81,14 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=Marmoset
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=118
+ERC_TestSimilarLabels=1
