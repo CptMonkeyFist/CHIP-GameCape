@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/nthompson/Videos/CHIP-GameCape/Marmoset_Breakout/Marmoset_Breakout.sch)
-    (date "7/8/2016 12:03:13 PM")
+    (date "7/20/2016 11:35:35 AM")
     (tool "Eeschema (2016-04-11 BZR 6687, Git f239aee)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -131,7 +131,7 @@
       (tstamp 575F849F))
     (comp (ref BT1)
       (value BATT_2032)
-      (footprint Marmoset:BU2032-SM)
+      (footprint Marmoset:SMTU2032-LF)
       (datasheet http://www.digikey.com/product-detail/en/BU2032SM-BT-GTR/BU2032SM-BT-GTR-ND/2439521)
       (fields
         (field (name Price) 0.60)
@@ -759,12 +759,11 @@
       (fields
         (field (name Reference) BT)
         (field (name Value) BATT_2032)
-        (field (name Datasheet) http://www.digikey.com/product-detail/en/BU2032SM-BT-GTR/BU2032SM-BT-GTR-ND/2439521)
-        (field (name "Price (1500)") 0.35)
-        (field (name Price) 0.60)
-        (field (name "Distributor Part Number") BU2032SM-BT-GCT-ND)
-        (field (name "Manufacturer Part Number") BU2032SM-BT-GTR)
-        (field (name Misc) BU2032SM-BT-GTR-ND))
+        (field (name Datasheet) http://www.mouser.com/ProductDetail/Renata/SMTU2032-LF/?qs=sGAEpiMZZMtT9MhkajLHrmEfZ9WFSDa1XtcRUuCmLTk%3d)
+        (field (name "Price (1500)") 0.54)
+        (field (name Price) 0.82)
+        (field (name "Distributor Part Number") 614-SMTU2032-LF)
+        (field (name "Manufacturer Part Number") SMTU2032-LF))
       (pins
         (pin (num 1) (name +) (type passive))
         (pin (num 2) (name -) (type passive))))

@@ -1043,12 +1043,11 @@ DEF BATT_2032 BT 0 0 Y Y 1 F N
 F0 "BT" 0 200 50 H V C CNN
 F1 "BATT_2032" 0 -190 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
-F3 "http://www.digikey.com/product-detail/en/BU2032SM-BT-GTR/BU2032SM-BT-GTR-ND/2439521" 0 650 60 H I C CNN
-F4 "0.35" 850 450 60 H I C CNN "Price (1500)"
-F5 "0.60" 850 550 60 H I C CNN "Price"
-F6 "BU2032SM-BT-GCT-ND" 0 550 60 H I C CNN "Distributor Part Number"
-F7 "BU2032SM-BT-GTR" 0 350 60 H I C CNN "Manufacturer Part Number"
-F8 "BU2032SM-BT-GTR-ND" 0 450 60 H I C CNN "Misc"
+F3 "http://www.mouser.com/ProductDetail/Renata/SMTU2032-LF/?qs=sGAEpiMZZMtT9MhkajLHrmEfZ9WFSDa1XtcRUuCmLTk%3d" 0 650 60 H I C CNN
+F4 "0.54" 850 450 60 H I C CNN "Price (1500)"
+F5 "0.82" 850 550 60 H I C CNN "Price"
+F6 "614-SMTU2032-LF" 0 550 60 H I C CNN "Distributor Part Number"
+F7 "SMTU2032-LF" 0 450 60 H I C CNN "Manufacturer Part Number"
 DRAW
 C 0 0 150 0 1 6 N
 P 2 0 1 0 -100 0 -150 0 N
